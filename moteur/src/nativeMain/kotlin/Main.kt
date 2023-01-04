@@ -1,10 +1,10 @@
 fun main(args: Array<String>) {
     val path = if(args.size == 1) {
-        args[0].trimQuotes()
+        args[0]
     } else {
         print("Chemin du fichier de données: ")
-        readln().trimQuotes()
-    }
+        readln()
+    }.trimQuotes()
 
     print(path)
 }
