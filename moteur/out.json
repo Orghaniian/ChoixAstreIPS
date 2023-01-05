@@ -1,0 +1,2065 @@
+{
+    "responses": [
+        {
+            "id": "e201962",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 2,
+                "oop": 2,
+                "functional": 2
+            },
+            "response4": {
+                "web": 1,
+                "cloud": 1,
+                "embedded": 5,
+                "mobile": 2,
+                "gameDev": 3
+            },
+            "response5": [
+                "MATHS",
+                "PHYSIC",
+                "ES"
+            ],
+            "response6": [
+                "CRYPTO",
+                "ELECTRONIC",
+                "PROGRAMMING",
+                "ALGO",
+                "ARCHI",
+                "LOGIC"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "LOW",
+                "blender": "NEVER",
+                "unity": "NEVER",
+                "figma": "LOW",
+                "ciscoPacketTracer": "NEVER",
+                "solidWorks": "NEVER",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "PROGRAMMABLE_IO_CARDS",
+                "OSCILLOSCOPE"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "INTERESTED",
+                "ensimelec": "INTERESTED",
+                "enigma": "IDC",
+                "lensimien": "IDC"
+            },
+            "response10": "MARIO_STATUE",
+            "response11": [
+                "READING",
+                "DIY",
+                "VIDEO_GAMES",
+                "CODING"
+            ],
+            "response12": "NO",
+            "response13": "BIOS",
+            "response14": "PREPA_INTEGRE",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "E200293",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 1,
+                "oop": 1,
+                "functional": 2
+            },
+            "response4": {
+                "web": 2,
+                "cloud": 2,
+                "embedded": 2,
+                "mobile": 3,
+                "gameDev": 5
+            },
+            "response5": [
+                "MATHS",
+                "PHYSIC",
+                "LITERATURE",
+                "HISTORY"
+            ],
+            "response6": [
+                "CRYPTO",
+                "PHYSIC",
+                "PROGRAMMING",
+                "ALGO",
+                "LOGIC",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "ALWAYS",
+                "blender": "LOW",
+                "unity": "LOW",
+                "figma": "LOW",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "LOW",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "PROGRAMMABLE_IO_CARDS",
+                "NEURAL_HEADSET",
+                "SMARTPHONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "INTERESTED",
+                "ensimelec": "INTERESTED",
+                "enigma": "ALREADY_MEMBER",
+                "lensimien": "IDC"
+            },
+            "response10": "MARIO_STATUE",
+            "response11": [
+                "SPORT",
+                "ART",
+                "VIDEO_GAMES",
+                "MUSIC",
+                "WORKOUT"
+            ],
+            "response12": "NO",
+            "response13": "HARDWARE",
+            "response14": "PREPA_INTEGRE",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e2205472",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 2,
+                "oop": 3,
+                "functional": 2
+            },
+            "response4": {
+                "web": 3,
+                "cloud": 2,
+                "embedded": 2,
+                "mobile": 3,
+                "gameDev": 3
+            },
+            "response5": [
+                "HISTORY"
+            ],
+            "response6": [
+                "PROGRAMMING",
+                "ALGO",
+                "IT",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "REGULARLY",
+                "blender": "LOW",
+                "unity": "NEVER",
+                "figma": "LOW",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "LOW",
+                "autoCAD": "NEVER"
+            },
+            "response8": [
+                "NOTHING"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDC",
+                "ensimelec": "IDC",
+                "enigma": "IDC",
+                "lensimien": "IDC"
+            },
+            "response10": "ARDUINO_CASE",
+            "response11": [
+                "VIDEO_GAMES",
+                "CODING"
+            ],
+            "response12": "YES",
+            "response13": "HARDWARE",
+            "response14": "BTS_SIO",
+            "response15": "DISTRIBUTION_LINUX"
+        },
+        {
+            "id": "e2204879",
+            "response2": "MAN",
+            "response3": {
+                "procedural": 2,
+                "oop": 3,
+                "functional": 2
+            },
+            "response4": {
+                "web": 3,
+                "cloud": 1,
+                "embedded": 0,
+                "mobile": 2,
+                "gameDev": 3
+            },
+            "response5": [
+                "MATHS",
+                "ARTS",
+                "ES"
+            ],
+            "response6": [
+                "CRYPTO",
+                "PROGRAMMING",
+                "IT",
+                "ARCHI",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "LOW",
+                "excel": "ALWAYS",
+                "blender": "LOW",
+                "unity": "REGULARLY",
+                "figma": "ALWAYS",
+                "ciscoPacketTracer": "LOW",
+                "solidWorks": "LOW",
+                "autoCAD": "NEVER"
+            },
+            "response8": [
+            ],
+            "response9": {
+                "kartel": "IDK",
+                "ensimersion": "ALREADY_MEMBER",
+                "ensimelec": "IDC",
+                "enigma": "INTERESTED",
+                "lensimien": "IDC"
+            },
+            "response10": "MARIO_STATUE",
+            "response11": [
+                "READING",
+                "SPORT",
+                "VIDEO_GAMES",
+                "WORKOUT",
+                "CODING"
+            ],
+            "response12": "YES",
+            "response13": "BIOS",
+            "response14": "BTS_SN",
+            "response15": "MACOS"
+        },
+        {
+            "id": "e2204699",
+            "response2": "MAN",
+            "response3": {
+                "procedural": 3,
+                "oop": 3,
+                "functional": 1
+            },
+            "response4": {
+                "web": 0,
+                "cloud": 0,
+                "embedded": 5,
+                "mobile": 0,
+                "gameDev": 2
+            },
+            "response5": [
+                "ES"
+            ],
+            "response6": [
+                "CRYPTO",
+                "ARCHI"
+            ],
+            "response7": {
+                "labview": "LOW",
+                "excel": "LOW",
+                "blender": "UNKNOWN",
+                "unity": "UNKNOWN",
+                "figma": "LOW",
+                "ciscoPacketTracer": "LOW",
+                "solidWorks": "LOW",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "PROGRAMMABLE_IO_CARDS",
+                "NEURAL_HEADSET",
+                "DRONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDC",
+                "ensimelec": "IDC",
+                "enigma": "IDC",
+                "lensimien": "IDC"
+            },
+            "response10": "MARIO_STATUE",
+            "response11": [
+                "VIDEO_GAMES"
+            ],
+            "response12": "NO",
+            "response13": "REPAIRER",
+            "response14": "DUT_INFORMATIQUE",
+            "response15": "DISTRIBUTION_LINUX"
+        },
+        {
+            "id": "e2205039",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 2,
+                "oop": 3,
+                "functional": 2
+            },
+            "response4": {
+                "web": 1,
+                "cloud": 2,
+                "embedded": 2,
+                "mobile": 1,
+                "gameDev": 1
+            },
+            "response5": [
+                "PHYSIC",
+                "LITERATURE",
+                "MANAGMENT",
+                "ES"
+            ],
+            "response6": [
+                "CRYPTO",
+                "PHYSIC",
+                "ENGLISH",
+                "ELECTRONIC",
+                "PROGRAMMING",
+                "LOGIC"
+            ],
+            "response7": {
+                "labview": "NEVER",
+                "excel": "LOW",
+                "blender": "UNKNOWN",
+                "unity": "UNKNOWN",
+                "figma": "LOW",
+                "ciscoPacketTracer": "REGULARLY",
+                "solidWorks": "LOW",
+                "autoCAD": "NEVER"
+            },
+            "response8": [
+                "DRONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDK",
+                "ensimersion": "IDK",
+                "ensimelec": "IDK",
+                "enigma": "IDK",
+                "lensimien": "IDK"
+            },
+            "response10": "PHONE_SHIELD",
+            "response11": [
+                "TRADING"
+            ],
+            "response12": "NO",
+            "response13": "BIOS",
+            "response14": "CPGE_MP2I_MPSI",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "E2205565",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 3,
+                "oop": 2,
+                "functional": 3
+            },
+            "response4": {
+                "web": 3,
+                "cloud": 2,
+                "embedded": 3,
+                "mobile": 3,
+                "gameDev": 5
+            },
+            "response5": [
+                "MATHS",
+                "PHYSIC",
+                "ES"
+            ],
+            "response6": [
+                "CRYPTO",
+                "PROGRAMMING",
+                "ALGO",
+                "LOGIC",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "NEVER",
+                "excel": "LOW",
+                "blender": "NEVER",
+                "unity": "NEVER",
+                "figma": "LOW",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "LOW",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "PROGRAMMABLE_IO_CARDS",
+                "SMARTPHONE"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDC",
+                "ensimelec": "IDC",
+                "enigma": "IDC",
+                "lensimien": "IDC"
+            },
+            "response10": "MARIO_STATUE",
+            "response11": [
+                "SPORT",
+                "VIDEO_GAMES"
+            ],
+            "response12": "NO",
+            "response13": "HARDWARE",
+            "response14": "CPGE_MP",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e2205559",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 2,
+                "oop": 3,
+                "functional": 2
+            },
+            "response4": {
+                "web": 3,
+                "cloud": 1,
+                "embedded": 3,
+                "mobile": 3,
+                "gameDev": 1
+            },
+            "response5": [
+                "MATHS",
+                "ES"
+            ],
+            "response6": [
+                "CRYPTO",
+                "PROGRAMMING",
+                "ALGO",
+                "IT",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "LOW",
+                "blender": "NEVER",
+                "unity": "UNKNOWN",
+                "figma": "NEVER",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "NEVER",
+                "autoCAD": "LOW"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "NEURAL_HEADSET",
+                "SMARTPHONE",
+                "DRONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDC",
+                "ensimelec": "IDC",
+                "enigma": "IDC",
+                "lensimien": "IDC"
+            },
+            "response10": "PHONE_SHIELD",
+            "response11": [
+                "SPORT",
+                "MUSIC",
+                "WORKOUT"
+            ],
+            "response12": "NO",
+            "response13": "BIOS",
+            "response14": "CPGE_MP",
+            "response15": "MACOS"
+        },
+        {
+            "id": "e2205212",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 1,
+                "oop": 2,
+                "functional": 3
+            },
+            "response4": {
+                "web": 2,
+                "cloud": 1,
+                "embedded": 3,
+                "mobile": 3,
+                "gameDev": 3
+            },
+            "response5": [
+                "MATHS",
+                "PHYSIC",
+                "ES"
+            ],
+            "response6": [
+                "CRYPTO",
+                "ENGLISH",
+                "ELECTRONIC",
+                "ALGO",
+                "LOGIC",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "REGULARLY",
+                "blender": "NEVER",
+                "unity": "NEVER",
+                "figma": "LOW",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "LOW",
+                "autoCAD": "NEVER"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "PROGRAMMABLE_IO_CARDS",
+                "NEURAL_HEADSET",
+                "SMARTPHONE",
+                "DRONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDK",
+                "ensimersion": "ALREADY_MEMBER",
+                "ensimelec": "INTERESTED",
+                "enigma": "IDK",
+                "lensimien": "IDK"
+            },
+            "response10": "ARDUINO_CASE",
+            "response11": [
+                "DIY",
+                "SPORT",
+                "VIDEO_GAMES"
+            ],
+            "response12": "NO",
+            "response13": "REPAIRER",
+            "response14": "CPGE_MP",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e201142",
+            "response2": "MAN",
+            "response3": {
+                "procedural": 2,
+                "oop": 2,
+                "functional": 2
+            },
+            "response4": {
+                "web": 2,
+                "cloud": 1,
+                "embedded": 3,
+                "mobile": 3,
+                "gameDev": 2
+            },
+            "response5": [
+                "MATHS",
+                "PHYSIC",
+                "GERMAN"
+            ],
+            "response6": [
+                "CRYPTO",
+                "ALGO",
+                "LOGIC",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "REGULARLY",
+                "blender": "UNKNOWN",
+                "unity": "UNKNOWN",
+                "figma": "LOW",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "LOW",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "PROGRAMMABLE_IO_CARDS",
+                "DRONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDK",
+                "ensimelec": "INTERESTED",
+                "enigma": "IDC",
+                "lensimien": "IDC"
+            },
+            "response10": "ARDUINO_CASE",
+            "response11": [
+                "READING",
+                "DIY",
+                "MUSIC"
+            ],
+            "response12": "NO",
+            "response13": "HARDWARE",
+            "response14": "PREPA_INTEGRE",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "E2204723",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 1,
+                "oop": 3,
+                "functional": 2
+            },
+            "response4": {
+                "web": 2,
+                "cloud": 0,
+                "embedded": 1,
+                "mobile": 2,
+                "gameDev": 3
+            },
+            "response5": [
+                "MATHS",
+                "PHYSIC"
+            ],
+            "response6": [
+                "CRYPTO"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "LOW",
+                "blender": "REGULARLY",
+                "unity": "REGULARLY",
+                "figma": "LOW",
+                "ciscoPacketTracer": "LOW",
+                "solidWorks": "LOW",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "SMARTPHONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDC",
+                "ensimelec": "IDC",
+                "enigma": "IDC",
+                "lensimien": "IDC"
+            },
+            "response10": "MARIO_STATUE",
+            "response11": [
+                "VIDEO_GAMES",
+                "MUSIC"
+            ],
+            "response12": "NO",
+            "response13": "HARDWARE",
+            "response14": "BTS_SIO",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "E222120191817",
+            "response2": "EXECUTIVE",
+            "response3": {
+                "procedural": 1,
+                "oop": 1,
+                "functional": 1
+            },
+            "response4": {
+                "web": 1,
+                "cloud": 1,
+                "embedded": 2,
+                "mobile": 2,
+                "gameDev": 2
+            },
+            "response5": [
+                "MATHS",
+                "PHYSIC",
+                "HISTORY",
+                "ES"
+            ],
+            "response6": [
+                "ELECTRONIC",
+                "PROGRAMMING",
+                "ALGO",
+                "ARCHI"
+            ],
+            "response7": {
+                "labview": "REGULARLY",
+                "excel": "LOW",
+                "blender": "LOW",
+                "unity": "LOW",
+                "figma": "NEVER",
+                "ciscoPacketTracer": "ALWAYS",
+                "solidWorks": "ALWAYS",
+                "autoCAD": "REGULARLY"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "PROGRAMMABLE_IO_CARDS",
+                "OSCILLOSCOPE",
+                "NEURAL_HEADSET",
+                "SMARTPHONE",
+                "DRONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDK",
+                "ensimersion": "IDK",
+                "ensimelec": "INTERESTED",
+                "enigma": "IDK",
+                "lensimien": "INTERESTED"
+            },
+            "response10": "PHONE_SHIELD",
+            "response11": [
+                "READING",
+                "DIY",
+                "MUSIC"
+            ],
+            "response12": "NO",
+            "response13": "BIOS",
+            "response14": "NA",
+            "response15": "DISTRIBUTION_LINUX"
+        },
+        {
+            "id": "e2205343",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 2,
+                "oop": 1,
+                "functional": 3
+            },
+            "response4": {
+                "web": 2,
+                "cloud": 2,
+                "embedded": 0,
+                "mobile": 2,
+                "gameDev": 2
+            },
+            "response5": [
+                "MATHS"
+            ],
+            "response6": [
+                "ENGLISH",
+                "PROGRAMMING",
+                "ALGO",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "NEVER",
+                "excel": "LOW",
+                "blender": "NEVER",
+                "unity": "LOW",
+                "figma": "REGULARLY",
+                "ciscoPacketTracer": "NEVER",
+                "solidWorks": "NEVER",
+                "autoCAD": "NEVER"
+            },
+            "response8": [
+                "NEURAL_HEADSET",
+                "SMARTPHONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDK",
+                "ensimersion": "IDK",
+                "ensimelec": "IDK",
+                "enigma": "IDK",
+                "lensimien": "IDK"
+            },
+            "response10": "PHONE_SHIELD",
+            "response11": [
+                "READING",
+                "SPORT",
+                "VIDEO_GAMES",
+                "MUSIC"
+            ],
+            "response12": "NO",
+            "response13": "REPAIRER",
+            "response14": "CPGE_MP",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e22005023",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 1,
+                "oop": 1,
+                "functional": 1
+            },
+            "response4": {
+                "web": 5,
+                "cloud": 5,
+                "embedded": 0,
+                "mobile": 5,
+                "gameDev": 3
+            },
+            "response5": [
+                "MATHS",
+                "ES"
+            ],
+            "response6": [
+                "ENGLISH",
+                "PROGRAMMING",
+                "IT",
+                "LOGIC",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "LOW",
+                "blender": "UNKNOWN",
+                "unity": "NEVER",
+                "figma": "REGULARLY",
+                "ciscoPacketTracer": "NEVER",
+                "solidWorks": "LOW",
+                "autoCAD": "NEVER"
+            },
+            "response8": [
+                "SMARTPHONE"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDK",
+                "ensimelec": "IDK",
+                "enigma": "IDK",
+                "lensimien": "IDC"
+            },
+            "response10": "PHONE_SHIELD",
+            "response11": [
+                "READING"
+            ],
+            "response12": "YES",
+            "response13": "BIOS",
+            "response14": "BTS_SIO",
+            "response15": "DISTRIBUTION_LINUX"
+        },
+        {
+            "id": "e2205261",
+            "response2": "EXECUTIVE",
+            "response3": {
+                "procedural": 2,
+                "oop": 3,
+                "functional": 1
+            },
+            "response4": {
+                "web": 1,
+                "cloud": 0,
+                "embedded": 1,
+                "mobile": 2,
+                "gameDev": 5
+            },
+            "response5": [
+                "MATHS",
+                "LITERATURE"
+            ],
+            "response6": [
+                "CRYPTO",
+                "LABOR_LAW",
+                "PROGRAMMING"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "NEVER",
+                "blender": "NEVER",
+                "unity": "LOW",
+                "figma": "NEVER",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "NEVER",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "ALREADY_MEMBER",
+                "ensimelec": "IDC",
+                "enigma": "ALREADY_MEMBER",
+                "lensimien": "IDC"
+            },
+            "response10": "MARIO_STATUE",
+            "response11": [
+                "SPORT",
+                "VIDEO_GAMES",
+                "MUSIC",
+                "WORKOUT"
+            ],
+            "response12": "NO",
+            "response13": "REPAIRER",
+            "response14": "CPGE_MP",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e201067",
+            "response2": "EXECUTIVE",
+            "response3": {
+                "procedural": 2,
+                "oop": 2,
+                "functional": 2
+            },
+            "response4": {
+                "web": 2,
+                "cloud": 2,
+                "embedded": 2,
+                "mobile": 2,
+                "gameDev": 2
+            },
+            "response5": [
+                "MATHS",
+                "PHYSIC"
+            ],
+            "response6": [
+                "CRYPTO",
+                "ALGO",
+                "LOGIC",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "LOW",
+                "blender": "UNKNOWN",
+                "unity": "UNKNOWN",
+                "figma": "LOW",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "LOW",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "NEURAL_HEADSET",
+                "SMARTPHONE",
+                "DRONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "INTERESTED",
+                "ensimelec": "IDC",
+                "enigma": "IDC",
+                "lensimien": "IDC"
+            },
+            "response10": "PHONE_SHIELD",
+            "response11": [
+                "MUSIC"
+            ],
+            "response12": "NO",
+            "response13": "REPAIRER",
+            "response14": "PREPA_INTEGRE",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e2205472",
+            "response2": "MAN",
+            "response3": {
+                "procedural": 2,
+                "oop": 3,
+                "functional": 2
+            },
+            "response4": {
+                "web": 5,
+                "cloud": 2,
+                "embedded": 2,
+                "mobile": 5,
+                "gameDev": 3
+            },
+            "response5": [
+                "HISTORY"
+            ],
+            "response6": [
+                "PROGRAMMING",
+                "ALGO",
+                "IT",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "REGULARLY",
+                "blender": "REGULARLY",
+                "unity": "REGULARLY",
+                "figma": "REGULARLY",
+                "ciscoPacketTracer": "NEVER",
+                "solidWorks": "LOW",
+                "autoCAD": "LOW"
+            },
+            "response8": [
+                "NOTHING"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDC",
+                "ensimelec": "IDC",
+                "enigma": "IDC",
+                "lensimien": "IDC"
+            },
+            "response10": "ARDUINO_CASE",
+            "response11": [
+                "VIDEO_GAMES",
+                "CODING"
+            ],
+            "response12": "NO",
+            "response13": "HARDWARE",
+            "response14": "BTS_SIO",
+            "response15": "DISTRIBUTION_LINUX"
+        },
+        {
+            "id": "e2206068",
+            "response2": "EXECUTIVE",
+            "response3": {
+                "procedural": 3,
+                "oop": 1,
+                "functional": 1
+            },
+            "response4": {
+                "web": 0,
+                "cloud": 0,
+                "embedded": 0,
+                "mobile": 0,
+                "gameDev": 0
+            },
+            "response5": [
+                "LITERATURE"
+            ],
+            "response6": [
+                "CRYPTO",
+                "ENGLISH",
+                "LABOR_LAW",
+                "ELECTRONIC",
+                "LOGIC"
+            ],
+            "response7": {
+                "labview": "NEVER",
+                "excel": "ALWAYS",
+                "blender": "UNKNOWN",
+                "unity": "NEVER",
+                "figma": "LOW",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "NEVER",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "SMARTPHONE",
+                "NOTHING"
+            ],
+            "response9": {
+                "kartel": "IDK",
+                "ensimersion": "IDK",
+                "ensimelec": "IDK",
+                "enigma": "IDK",
+                "lensimien": "INTERESTED"
+            },
+            "response10": "PHONE_SHIELD",
+            "response11": [
+                "READING"
+            ],
+            "response12": "NO",
+            "response13": "REPAIRER",
+            "response14": "PREPA_INTEGRE",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e2205046",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 1,
+                "oop": 3,
+                "functional": 2
+            },
+            "response4": {
+                "web": 3,
+                "cloud": 3,
+                "embedded": 2,
+                "mobile": 3,
+                "gameDev": 5
+            },
+            "response5": [
+                "MATHS"
+            ],
+            "response6": [
+                "CRYPTO",
+                "PROGRAMMING",
+                "ALGO"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "REGULARLY",
+                "blender": "NEVER",
+                "unity": "NEVER",
+                "figma": "LOW",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "LOW",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "PROGRAMMABLE_IO_CARDS",
+                "SMARTPHONE",
+                "DRONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDK",
+                "ensimelec": "INTERESTED",
+                "enigma": "INTERESTED",
+                "lensimien": "IDC"
+            },
+            "response10": "MARIO_STATUE",
+            "response11": [
+                "VIDEO_GAMES"
+            ],
+            "response12": "NO",
+            "response13": "BIOS",
+            "response14": "CPGE_MP",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "E201931",
+            "response2": "MAN",
+            "response3": {
+                "procedural": 2,
+                "oop": 1,
+                "functional": 1
+            },
+            "response4": {
+                "web": 2,
+                "cloud": 3,
+                "embedded": 5,
+                "mobile": 2,
+                "gameDev": 0
+            },
+            "response5": [
+                "PHYSIC",
+                "LITERATURE",
+                "ES"
+            ],
+            "response6": [
+                "PROGRAMMING",
+                "ALGO",
+                "ARCHI"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "REGULARLY",
+                "blender": "NEVER",
+                "unity": "NEVER",
+                "figma": "LOW",
+                "ciscoPacketTracer": "LOW",
+                "solidWorks": "REGULARLY",
+                "autoCAD": "NEVER"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "PROGRAMMABLE_IO_CARDS",
+                "OSCILLOSCOPE"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDC",
+                "ensimelec": "IDC",
+                "enigma": "IDC",
+                "lensimien": "IDC"
+            },
+            "response10": "ARDUINO_CASE",
+            "response11": [
+                "HOME_AUTOMATIC"
+            ],
+            "response12": "NO",
+            "response13": "BIOS",
+            "response14": "PREPA_INTEGRE",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "U2107800",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 1,
+                "oop": 3,
+                "functional": 2
+            },
+            "response4": {
+                "web": 5,
+                "cloud": 3,
+                "embedded": 2,
+                "mobile": 5,
+                "gameDev": 5
+            },
+            "response5": [
+                "MATHS",
+                "MANAGMENT",
+                "ES"
+            ],
+            "response6": [
+                "ENGLISH",
+                "ELECTRONIC",
+                "PROGRAMMING",
+                "ALGO",
+                "IT",
+                "ARCHI",
+                "LOGIC",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "LOW",
+                "excel": "ALWAYS",
+                "blender": "NEVER",
+                "unity": "LOW",
+                "figma": "LOW",
+                "ciscoPacketTracer": "REGULARLY",
+                "solidWorks": "NEVER",
+                "autoCAD": "NEVER"
+            },
+            "response8": [
+                "PROGRAMMABLE_IO_CARDS",
+                "SMARTPHONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDK",
+                "ensimersion": "INTERESTED",
+                "ensimelec": "INTERESTED",
+                "enigma": "IDK",
+                "lensimien": "INTERESTED"
+            },
+            "response10": "PHONE_SHIELD",
+            "response11": [
+                "SPORT",
+                "VIDEO_GAMES",
+                "MUSIC",
+                "WORKOUT"
+            ],
+            "response12": "NO",
+            "response13": "BIOS",
+            "response14": "DUT_INFORMATIQUE",
+            "response15": "DISTRIBUTION_LINUX"
+        },
+        {
+            "id": "e2203685",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 1,
+                "oop": 1,
+                "functional": 1
+            },
+            "response4": {
+                "web": 3,
+                "cloud": 1,
+                "embedded": 0,
+                "mobile": 3,
+                "gameDev": 2
+            },
+            "response5": [
+                "MATHS",
+                "LITERATURE",
+                "HISTORY"
+            ],
+            "response6": [
+                "ALGO",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "LOW",
+                "blender": "NEVER",
+                "unity": "NEVER",
+                "figma": "LOW",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "NEVER",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "SMARTPHONE",
+                "NOTHING"
+            ],
+            "response9": {
+                "kartel": "INTERESTED",
+                "ensimersion": "IDC",
+                "ensimelec": "IDC",
+                "enigma": "IDC",
+                "lensimien": "ALREADY_MEMBER"
+            },
+            "response10": "PHONE_SHIELD",
+            "response11": [
+                "READING",
+                "SPORT",
+                "VIDEO_GAMES",
+                "MUSIC"
+            ],
+            "response12": "NO",
+            "response13": "REPAIRER",
+            "response14": "CPGE_BL",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e200776",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 2,
+                "oop": 2,
+                "functional": 2
+            },
+            "response4": {
+                "web": 0,
+                "cloud": 1,
+                "embedded": 5,
+                "mobile": 2,
+                "gameDev": 2
+            },
+            "response5": [
+                "MATHS",
+                "PHYSIC",
+                "ES"
+            ],
+            "response6": [
+                "ALGO",
+                "LOGIC"
+            ],
+            "response7": {
+                "labview": "REGULARLY",
+                "excel": "REGULARLY",
+                "blender": "NEVER",
+                "unity": "NEVER",
+                "figma": "LOW",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "LOW",
+                "autoCAD": "LOW"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "PROGRAMMABLE_IO_CARDS",
+                "DRONE"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDC",
+                "ensimelec": "INTERESTED",
+                "enigma": "INTERESTED",
+                "lensimien": "IDC"
+            },
+            "response10": "ARDUINO_CASE",
+            "response11": [
+                "VIDEO_GAMES"
+            ],
+            "response12": "NO",
+            "response13": "REPAIRER",
+            "response14": "PREPA_INTEGRE",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e2205435",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 2,
+                "oop": 2,
+                "functional": 2
+            },
+            "response4": {
+                "web": 5,
+                "cloud": 2,
+                "embedded": 2,
+                "mobile": 5,
+                "gameDev": 5
+            },
+            "response5": [
+                "MATHS",
+                "PHYSIC",
+                "ES"
+            ],
+            "response6": [
+                "CRYPTO",
+                "PROGRAMMING",
+                "ALGO",
+                "LOGIC",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "REGULARLY",
+                "blender": "UNKNOWN",
+                "unity": "NEVER",
+                "figma": "REGULARLY",
+                "ciscoPacketTracer": "NEVER",
+                "solidWorks": "LOW",
+                "autoCAD": "NEVER"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "PROGRAMMABLE_IO_CARDS",
+                "OSCILLOSCOPE",
+                "NEURAL_HEADSET",
+                "SMARTPHONE",
+                "DRONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDK",
+                "ensimersion": "IDK",
+                "ensimelec": "IDK",
+                "enigma": "IDK",
+                "lensimien": "IDK"
+            },
+            "response10": "PHONE_SHIELD",
+            "response11": [
+                "MUSIC"
+            ],
+            "response12": "NO",
+            "response13": "BIOS",
+            "response14": "CPGE_MP",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e2205562",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 1,
+                "oop": 1,
+                "functional": 1
+            },
+            "response4": {
+                "web": 3,
+                "cloud": 3,
+                "embedded": 5,
+                "mobile": 5,
+                "gameDev": 5
+            },
+            "response5": [
+                "MATHS",
+                "PHYSIC",
+                "ES"
+            ],
+            "response6": [
+                "PHYSIC",
+                "ELECTRONIC",
+                "PROGRAMMING",
+                "ALGO",
+                "LOGIC"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "LOW",
+                "blender": "UNKNOWN",
+                "unity": "UNKNOWN",
+                "figma": "LOW",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "LOW",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "PROGRAMMABLE_IO_CARDS",
+                "NEURAL_HEADSET",
+                "SMARTPHONE"
+            ],
+            "response9": {
+                "kartel": "IDK",
+                "ensimersion": "IDK",
+                "ensimelec": "INTERESTED",
+                "enigma": "IDK",
+                "lensimien": "IDK"
+            },
+            "response10": "ARDUINO_CASE",
+            "response11": [
+                "DIY",
+                "SPORT",
+                "VIDEO_GAMES",
+                "MUSIC"
+            ],
+            "response12": "NO",
+            "response13": "HARDWARE",
+            "response14": "CPGE_MP",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e2205762",
+            "response2": "EXECUTIVE",
+            "response3": {
+                "procedural": 1,
+                "oop": 2,
+                "functional": 1
+            },
+            "response4": {
+                "web": 5,
+                "cloud": 0,
+                "embedded": 0,
+                "mobile": 5,
+                "gameDev": 2
+            },
+            "response5": [
+                "MATHS",
+                "LITERATURE",
+                "HISTORY"
+            ],
+            "response6": [
+                "ENGLISH",
+                "PORJECT_MANAGMENT",
+                "LABOR_LAW",
+                "PROGRAMMING",
+                "ALGO",
+                "IT",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "LOW",
+                "blender": "NEVER",
+                "unity": "NEVER",
+                "figma": "REGULARLY",
+                "ciscoPacketTracer": "LOW",
+                "solidWorks": "NEVER",
+                "autoCAD": "NEVER"
+            },
+            "response8": [
+                "NOTHING"
+            ],
+            "response9": {
+                "kartel": "IDK",
+                "ensimersion": "INTERESTED",
+                "ensimelec": "IDK",
+                "enigma": "IDK",
+                "lensimien": "IDK"
+            },
+            "response10": "PHONE_SHIELD",
+            "response11": [
+                "MUSIC"
+            ],
+            "response12": "NO",
+            "response13": "REPAIRER",
+            "response14": "NA",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "20202211",
+            "response2": "MAN",
+            "response3": {
+                "procedural": 3,
+                "oop": 2,
+                "functional": 1
+            },
+            "response4": {
+                "web": 1,
+                "cloud": 0,
+                "embedded": 1,
+                "mobile": 2,
+                "gameDev": 1
+            },
+            "response5": [
+                "MATHS",
+                "SPORT"
+            ],
+            "response6": [
+                "ALGO"
+            ],
+            "response7": {
+                "labview": "NEVER",
+                "excel": "LOW",
+                "blender": "NEVER",
+                "unity": "NEVER",
+                "figma": "LOW",
+                "ciscoPacketTracer": "NEVER",
+                "solidWorks": "REGULARLY",
+                "autoCAD": "NEVER"
+            },
+            "response8": [
+                "PROGRAMMABLE_IO_CARDS",
+                "SMARTPHONE"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDC",
+                "ensimelec": "IDC",
+                "enigma": "IDC",
+                "lensimien": "IDC"
+            },
+            "response10": "PHONE_SHIELD",
+            "response11": [
+                "SPORT"
+            ],
+            "response12": "NO",
+            "response13": "REPAIRER",
+            "response14": "PREPA_INTEGRE",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e2204707",
+            "response2": "EXECUTIVE",
+            "response3": {
+                "procedural": 1,
+                "oop": 3,
+                "functional": 2
+            },
+            "response4": {
+                "web": 5,
+                "cloud": 2,
+                "embedded": 1,
+                "mobile": 5,
+                "gameDev": 5
+            },
+            "response5": [
+                "MATHS",
+                "ES"
+            ],
+            "response6": [
+                "PROGRAMMING",
+                "ALGO",
+                "LOGIC",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "NEVER",
+                "excel": "ALWAYS",
+                "blender": "LOW",
+                "unity": "REGULARLY",
+                "figma": "LOW",
+                "ciscoPacketTracer": "REGULARLY",
+                "solidWorks": "LOW",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "SMARTPHONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "INTERESTED",
+                "ensimelec": "IDC",
+                "enigma": "INTERESTED",
+                "lensimien": "IDC"
+            },
+            "response10": "MARIO_STATUE",
+            "response11": [
+                "SPORT",
+                "VIDEO_GAMES",
+                "CODING"
+            ],
+            "response12": "YES",
+            "response13": "HARDWARE",
+            "response14": "BTS_SN",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e2205363",
+            "response2": "EXPERT",
+            "response3": {
+                "procedural": 1,
+                "oop": 1,
+                "functional": 1
+            },
+            "response4": {
+                "web": 5,
+                "cloud": 0,
+                "embedded": 1,
+                "mobile": 3,
+                "gameDev": 3
+            },
+            "response5": [
+                "MATHS",
+                "ARTS",
+                "ELECTRONIC"
+            ],
+            "response6": [
+                "ENGLISH",
+                "PROGRAMMING",
+                "ALGO",
+                "IT",
+                "LOGIC"
+            ],
+            "response7": {
+                "labview": "NEVER",
+                "excel": "LOW",
+                "blender": "UNKNOWN",
+                "unity": "NEVER",
+                "figma": "LOW",
+                "ciscoPacketTracer": "LOW",
+                "solidWorks": "LOW",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "PROGRAMMABLE_IO_CARDS",
+                "NOTHING",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDC",
+                "ensimelec": "IDC",
+                "enigma": "IDC",
+                "lensimien": "IDC"
+            },
+            "response10": "PHONE_SHIELD",
+            "response11": [
+                "DIY",
+                "SPORT",
+                "VIDEO_GAMES",
+                "MUSIC",
+                "WORKOUT"
+            ],
+            "response12": "YES",
+            "response13": "BIOS",
+            "response14": "NA",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "s206985",
+            "response2": "MAN",
+            "response3": {
+                "procedural": 1,
+                "oop": 1,
+                "functional": 1
+            },
+            "response4": {
+                "web": 5,
+                "cloud": 3,
+                "embedded": 1,
+                "mobile": 5,
+                "gameDev": 3
+            },
+            "response5": [
+                "MATHS",
+                "PHYSIC",
+                "ES",
+                "SPORT"
+            ],
+            "response6": [
+                "CRYPTO",
+                "LABOR_LAW",
+                "PROGRAMMING",
+                "ALGO",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "LOW",
+                "blender": "UNKNOWN",
+                "unity": "LOW",
+                "figma": "LOW",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "LOW",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "SMARTPHONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDK",
+                "ensimersion": "IDK",
+                "ensimelec": "IDK",
+                "enigma": "IDK",
+                "lensimien": "IDK"
+            },
+            "response10": "PHONE_SHIELD",
+            "response11": [
+                "SPORT",
+                "VIDEO_GAMES",
+                "MUSIC"
+            ],
+            "response12": "NO",
+            "response13": "REPAIRER",
+            "response14": "CPGE_MP",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "20201116",
+            "response2": "EXECUTIVE",
+            "response3": {
+                "procedural": 1,
+                "oop": 2,
+                "functional": 2
+            },
+            "response4": {
+                "web": 2,
+                "cloud": 1,
+                "embedded": 1,
+                "mobile": 2,
+                "gameDev": 2
+            },
+            "response5": [
+                "MATHS",
+                "PHYSIC",
+                "LITERATURE",
+                "HISTORY",
+                "ARTS"
+            ],
+            "response6": [
+                "CRYPTO",
+                "ALGO"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "REGULARLY",
+                "blender": "LOW",
+                "unity": "NEVER",
+                "figma": "NEVER",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "LOW",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "NEURAL_HEADSET",
+                "SMARTPHONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "INTERESTED",
+                "ensimersion": "IDC",
+                "ensimelec": "IDC",
+                "enigma": "ALREADY_MEMBER",
+                "lensimien": "IDC"
+            },
+            "response10": "MARIO_STATUE",
+            "response11": [
+                "READING",
+                "SPORT",
+                "ART",
+                "VIDEO_GAMES",
+                "TABLE_GAMES"
+            ],
+            "response12": "NO",
+            "response13": "REPAIRER",
+            "response14": "PREPA_INTEGRE",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e2204701",
+            "response2": "MAN",
+            "response3": {
+                "procedural": 3,
+                "oop": 3,
+                "functional": 2
+            },
+            "response4": {
+                "web": 2,
+                "cloud": 3,
+                "embedded": 5,
+                "mobile": 3,
+                "gameDev": 2
+            },
+            "response5": [
+                "MATHS",
+                "PHYSIC",
+                "LITERATURE",
+                "MANAGMENT",
+                "ISN"
+            ],
+            "response6": [
+                "CRYPTO",
+                "PHYSIC",
+                "PORJECT_MANAGMENT",
+                "ARCHI",
+                "LOGIC",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "REGULARLY",
+                "blender": "REGULARLY",
+                "unity": "LOW",
+                "figma": "REGULARLY",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "LOW",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "PROGRAMMABLE_IO_CARDS",
+                "OSCILLOSCOPE",
+                "NEURAL_HEADSET",
+                "DRONE"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDK",
+                "ensimelec": "INTERESTED",
+                "enigma": "ALREADY_MEMBER",
+                "lensimien": "IDC"
+            },
+            "response10": "ARDUINO_CASE",
+            "response11": [
+                "READING",
+                "DIY",
+                "VIDEO_GAMES",
+                "MUSIC"
+            ],
+            "response12": "YES",
+            "response13": "BIOS",
+            "response14": "DUT_INFORMATIQUE",
+            "response15": "DISTRIBUTION_LINUX"
+        },
+        {
+            "id": "e2204767",
+            "response2": "EXECUTIVE",
+            "response3": {
+                "procedural": 2,
+                "oop": 2,
+                "functional": 3
+            },
+            "response4": {
+                "web": 3,
+                "cloud": 1,
+                "embedded": 2,
+                "mobile": 3,
+                "gameDev": 2
+            },
+            "response5": [
+                "MATHS",
+                "HISTORY",
+                "ARTS",
+                "ES"
+            ],
+            "response6": [
+                "CRYPTO",
+                "PROGRAMMING",
+                "ALGO",
+                "IT",
+                "ARCHI",
+                "LOGIC",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "LOW",
+                "excel": "REGULARLY",
+                "blender": "NEVER",
+                "unity": "REGULARLY",
+                "figma": "REGULARLY",
+                "ciscoPacketTracer": "NEVER",
+                "solidWorks": "REGULARLY",
+                "autoCAD": "REGULARLY"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "PROGRAMMABLE_IO_CARDS",
+                "NEURAL_HEADSET",
+                "SMARTPHONE",
+                "DRONE",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "INTERESTED",
+                "ensimelec": "INTERESTED",
+                "enigma": "IDC",
+                "lensimien": "IDC"
+            },
+            "response10": "BUTTONS",
+            "response11": [
+                "SPORT"
+            ],
+            "response12": "NO",
+            "response13": "REPAIRER",
+            "response14": "DUT_INFORMATIQUE",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e200790",
+            "response2": "MAN",
+            "response3": {
+                "procedural": 2,
+                "oop": 2,
+                "functional": 2
+            },
+            "response4": {
+                "web": 3,
+                "cloud": 2,
+                "embedded": 3,
+                "mobile": 3,
+                "gameDev": 3
+            },
+            "response5": [
+                "MATHS"
+            ],
+            "response6": [
+                "CRYPTO",
+                "LOGIC",
+                "HMI"
+            ],
+            "response7": {
+                "labview": "UNKNOWN",
+                "excel": "ALWAYS",
+                "blender": "UNKNOWN",
+                "unity": "NEVER",
+                "figma": "REGULARLY",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "REGULARLY",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "PRINTING_3D",
+                "PROGRAMMABLE_IO_CARDS",
+                "VR_HEADSET"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDC",
+                "ensimelec": "IDC",
+                "enigma": "IDC",
+                "lensimien": "IDC"
+            },
+            "response10": "MARIO_STATUE",
+            "response11": [
+                "READING",
+                "SPORT",
+                "ART",
+                "VIDEO_GAMES",
+                "MUSIC",
+                "COOKING"
+            ],
+            "response12": "NO",
+            "response13": "REPAIRER",
+            "response14": "PREPA_INTEGRE",
+            "response15": "WINDOWS"
+        },
+        {
+            "id": "e200942",
+            "response2": "MAN",
+            "response3": {
+                "procedural": 3,
+                "oop": 2,
+                "functional": 1
+            },
+            "response4": {
+                "web": 3,
+                "cloud": 0,
+                "embedded": 0,
+                "mobile": 2,
+                "gameDev": 2
+            },
+            "response5": [
+                "MATHS",
+                "LITERATURE",
+                "HISTORY",
+                "ISN"
+            ],
+            "response6": [
+                "CRYPTO",
+                "PROGRAMMING",
+                "ALGO"
+            ],
+            "response7": {
+                "labview": "NEVER",
+                "excel": "REGULARLY",
+                "blender": "UNKNOWN",
+                "unity": "NEVER",
+                "figma": "UNKNOWN",
+                "ciscoPacketTracer": "UNKNOWN",
+                "solidWorks": "LOW",
+                "autoCAD": "UNKNOWN"
+            },
+            "response8": [
+                "SMARTPHONE",
+                "NOTHING"
+            ],
+            "response9": {
+                "kartel": "IDC",
+                "ensimersion": "IDC",
+                "ensimelec": "IDC",
+                "enigma": "IDC",
+                "lensimien": "IDC"
+            },
+            "response10": "PHONE_SHIELD",
+            "response11": [
+                "SPORT",
+                "VIDEO_GAMES"
+            ],
+            "response12": "NO",
+            "response13": "REPAIRER",
+            "response14": "PREPA_INTEGRE",
+            "response15": "WINDOWS"
+        }
+    ]
+}
