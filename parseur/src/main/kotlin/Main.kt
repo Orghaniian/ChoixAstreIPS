@@ -44,7 +44,6 @@ fun readOutputPath(): File {
     return output
 }
 
-
 fun processLine(line: Array<String>) = Response(
     line[1].trim(),
     Response.Response2.values().firstOrNull { it.value == line[2].trim() } ?: throw NoSuchElementException("${line[2].trim()} not found in Response2.values()"),
@@ -81,7 +80,7 @@ fun processLine(line: Array<String>) = Response(
         else Response.Response12.values().firstOrNull { it.value == line[29] } ?: throw NoSuchElementException("${line[29]} not found in Response12.values()")
     },
     Response.Response13.values().firstOrNull { it.value == line[30] } ?: throw NoSuchElementException("${line[30]} not found in Response13.values()"),
-    line[31].let{ value ->
+    line[31].let { value ->
         if (value.isBlank()) Response.Response14.NA
         else Response.Response14.values().firstOrNull { it.value == value } ?: throw NoSuchElementException("${line[31]} not found in Response14.values()")
     },
