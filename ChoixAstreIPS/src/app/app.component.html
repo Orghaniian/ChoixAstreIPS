@@ -1,0 +1,34 @@
+<div class="full_page">
+
+    <h1>Astre ou IPS: El Grando Predicator</h1>
+  
+    <div class="choix_eleve_div">
+        <label>Choisir un-e élève spécifique</label>
+        <ng-select [items]="students" [(ngModel)]="selectedStudent"
+                        [ngModelOptions]="{standalone: true}" id="student"></ng-select>
+    </div>
+  
+    <div class="student_prediction_dashboard">
+  
+        <div class="weight_control_line">
+            <div class="control_block">
+                <label>Paradigme</label>
+                <div class="sub_control_block">
+                    <div class="spec_value_div">
+                        <p>0.33248</p>
+                    </div>
+                    <div class="weight_value_control">
+                        <img src="" alt="" class="weight_modifier_left_button"/>
+                        <p>0.8</p>
+                        <img src="" alt="" class="weight_modifier_right_button"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <h1>Score</h1>
+        <h1>0.5489</h1>
+        <p>L’élève e2022147858 deviendra un-e élève IPS ! </p>
+  
+    </div>
+  </div>
