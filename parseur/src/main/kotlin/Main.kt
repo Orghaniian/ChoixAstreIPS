@@ -6,11 +6,11 @@ import java.io.File
 import java.text.Normalizer
 
 private val json = Json { prettyPrint = true }
-private const val DEFAULT_OUTPUT_NAME = "indicateurs.json"
+private const val DEFAULT_OUTPUT_NAME = "data.json"
 
 @OptIn(ExperimentalSerializationApi::class)
 fun main(args: Array<String>) {
-    val path = if(args.size == 1) {
+    val path = if(args.isNotEmpty()) {
         args[0]
     } else {
         print("Chemin du fichier de données: ")
@@ -24,16 +24,21 @@ fun main(args: Array<String>) {
         Responses(it)
     }
 
-    readOutputPath().run {
+    readOutputPath(args).run {
         outputStream().use { out ->
             json.encodeToStream(responses, out)
         }
+        println(this.absolutePath)
     }
 }
 
-fun readOutputPath(): File {
-    print("Chemin du fichier dans lequel seront stockés les indicateurs: ")
-    val path = readln().trimQuotes().ifEmpty { DEFAULT_OUTPUT_NAME }
+fun readOutputPath(args: Array<String>): File {
+    val path = if(args.size >= 2) {
+        args[1]
+    } else {
+        print("Chemin du fichier dans lequel seront stockés les indicateurs: ")
+        readln().trimQuotes().ifEmpty { DEFAULT_OUTPUT_NAME }
+    }
 
     var output = File(path)
 
