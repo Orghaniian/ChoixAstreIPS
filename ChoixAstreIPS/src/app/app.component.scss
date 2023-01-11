@@ -30,7 +30,7 @@
 
 
     label {
-        font-family: 'Open Sans';
+        font-family: 'Open Sans', sans-serif;
         color: var(--text-color);
         margin: auto 1rem auto auto;
         font-size: 1em;
@@ -135,4 +135,12 @@
     & p {
         text-align: center;
     }
+}
+
+.ips {
+    color: var(--violet-color);
+}
+
+.astre {
+    color: var(--blue-color)
 }

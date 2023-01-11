@@ -46,4 +46,10 @@ export class AppComponent {
   public pourcentageToMarginLeft(_score: number): string {
     return '30%';
   }
+
+  public isIPS(): boolean {
+    if(this.selectedStudent == null) return false;
+
+    return this.selectedStudent.computeProbability(this.weights) > 0;
+  }
 }
