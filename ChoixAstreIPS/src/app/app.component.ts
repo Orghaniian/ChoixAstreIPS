@@ -36,10 +36,12 @@ export class AppComponent {
   public calculateBubblePosition(): void {
     if (this.selectedStudent) {
       let score = this.selectedStudent.computeProbability(this.weights);
+      console.log(`Score: ${score}`);
       // Calcul schlag
       // -1 -> margin-left 10%
       // 1 -> margin-left 70%
       let bubble_element = document.getElementById('bubble_indication_block');
+      console.log(`Bubble_element: ${bubble_element}`);
       if (bubble_element) {
         bubble_element.style.marginLeft = this.pourcentageToMarginLeft(score);
       }
@@ -48,7 +50,8 @@ export class AppComponent {
   }
 
   public pourcentageToMarginLeft(_score: number): string {
-    return '30%';
+    console.log(60 * Math.log10(_score + 2) + 10);
+    return `${60 * Math.log10(_score + 2) + 10}%`;
   }
 
   public isIPS(): boolean {
