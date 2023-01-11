@@ -32,7 +32,7 @@
         </div>
 
         <h2>Score</h2>
-        <h1 *ngIf="selectedStudent != null">{{ selectedStudent.computeProbability(weights) }}</h1>
+        <h1 *ngIf="selectedStudent != null">{{ selectedStudent.computeProbability(weights) | number: '1.5-5' }}</h1>
         <p>L’élève {{ selectedStudent?.id }} deviendra un-e élève IPS ! </p>
 
 
