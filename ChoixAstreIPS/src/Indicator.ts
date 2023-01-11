@@ -26,13 +26,13 @@ class Indicator {
     }
 
 
-    computeProbability(weights: Map<string, number>): number {
+    computeProbability(weights: Weight[]): number {
         let value = 0;
         let totalWeight = 0;
 
-        weights.forEach((weight, key) => {
-            value += new Map(Object.entries(this)).get(key) * weight;
-            totalWeight += weight;
+        weights.forEach((weight) => {
+            value += new Map(Object.entries(this)).get(weight.key) * weight.value;
+            totalWeight += weight.value;
         })
 
         console.log("probability: ", value / totalWeight, weights);
@@ -42,17 +42,33 @@ class Indicator {
     }
 }
 
-const defaultWeights = new Map<string, number>([
-    ["assos", 1],
-    ["devices", .4],
-    ["highschoolSubjects", .2],
-    ["hobbies", .5],
-    ["oS", .2],
-    ["paradigm", .7],
-    ["previousCursus", .4],
-    ["s5Subjects", 1],
-    ["softwaresUsage", .4],
-    ["technos", .5]
-])
 
-export { Indicator, defaultWeights }
+
+class Weight {
+    key: string;
+    value: number;
+    title: string;
+
+
+    constructor(key: string, value: number, title: string) {
+        this.key = key;
+        this.value = value;
+        this.title = title;
+    }
+}
+
+const defaultWeights: Weight[] = [
+    new Weight("assos", 1, "Participation dans les associations"),
+    new Weight("devices", .4, "Intêret pour l'utilisation de de certaines machines"),
+    new Weight("highschoolSubjects", .2, "Attrait pour certaines matières au lycée"),
+    new Weight("hobbies", .5, "Hobbies"),
+    new Weight("oS", .2, "Système d'exploitation de prédilection"),
+    new Weight("paradigm", .7, "Paradigme de programmation préféré"),
+    new Weight("previousCursus", .4, "Formation avant le cycle ingénieur"),
+    new Weight("s5Subjects", 1, "Attrait pour certains cours du S5"),
+    new Weight("softwaresUsage", .4, "Habitude d'utilisation de certains logiciels"),
+    new Weight("technos", .5, "Intérêt pour certains technologies"),
+]
+
+
+export { Indicator, defaultWeights, Weight }
