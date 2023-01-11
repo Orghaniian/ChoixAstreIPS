@@ -1,53 +1,54 @@
-<div class="full_page">
+<ng-scrollbar style="height: 100vh">
+    <div class="full_page">
+        <h1>Astre ou IPS: El Grando Predicator</h1>
 
-    <h1>Astre ou IPS: El Grando Predicator</h1>
+        <div class="choix_eleve_div">
+            <p>Choisir un-e élève spécifique</p>
+            <ng-select [items]="students" [(ngModel)]="selectedStudent" bindLabel="id" [ngModelOptions]="{standalone: true}"
+                       id="student"></ng-select>
+        </div>
 
-    <div class="choix_eleve_div">
-        <p>Choisir un-e élève spécifique</p>
-        <ng-select [items]="students" [(ngModel)]="selectedStudent" bindLabel="id" [ngModelOptions]="{standalone: true}"
-            id="student"></ng-select>
-    </div>
+        <div class="student_prediction_dashboard">
 
-    <div class="student_prediction_dashboard">
-
-        <div *ngIf="selectedStudent != null" class="color_indicator_div">
-            <div class="bubble_indication_block" id="bubble_indication_block">
-                <div class="bubble_indicator_line">
-                    <div class="indicator_student_bubble">
-                        <p>{{selectedStudent.id || 'null' }}</p>
+            <div *ngIf="selectedStudent != null" class="color_indicator_div">
+                <div class="bubble_indication_block" id="bubble_indication_block">
+                    <div class="bubble_indicator_line">
+                        <div class="indicator_student_bubble">
+                            <p>{{selectedStudent.id || 'null' }}</p>
+                        </div>
+                        <div class="indicator_student_pointer"></div>
                     </div>
-                    <div class="indicator_student_pointer"></div>
+                </div>
+
+                <div class="bar_indicator_line">
+                    <div class="label_spe_bar_indicator">
+                        <p class="left_label">ASTRE</p>
+                    </div>
+                    <div class="gradient_bar"></div>
+                    <div class="label_spe_bar_indicator">
+                        <p class="right_label">IPS</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="bar_indicator_line">
-                <div class="label_spe_bar_indicator">
-                    <p class="left_label">ASTRE</p>
-                </div>
-                <div class="gradient_bar"></div>
-                <div class="label_spe_bar_indicator">
-                    <p class="right_label">IPS</p>
-                </div>
+            <div class="score_div">
+                <h2 *ngIf="selectedStudent != null">Score</h2>
+                <h1 *ngIf="selectedStudent != null">{{ selectedStudent.computeProbability(weights) | number: '1.5-5' }}</h1>
+                <p *ngIf="selectedStudent != null">L’élève {{ selectedStudent.id }} deviendra un-e élève <span
+                        [ngClass]="{'ips': isIPS(), 'astre': !isIPS()}">{{ isIPS() ? "IPS" : "ASTRE" }}</span> ! </p>
             </div>
-        </div>
-
-        <div class="score_div">
-            <h2 *ngIf="selectedStudent != null">Score</h2>
-            <h1 *ngIf="selectedStudent != null">{{ selectedStudent.computeProbability(weights) | number: '1.5-5' }}</h1>
-            <p *ngIf="selectedStudent != null">L’élève {{ selectedStudent.id }} deviendra un-e élève <span
-                    [ngClass]="{'ips': isIPS(), 'astre': !isIPS()}">{{ isIPS() ? "IPS" : "ASTRE" }}</span> ! </p>
-        </div>
 
 
 
 
-        <div class="weight_control_line">
-            <div *ngFor="let weight of weights" class="control_block">
-                <label>{{weight.title}}</label>
-                <div class="custom_slider_div">
-                    <ngx-slider [(value)]="weight.value" [options]="sliderOptions" id="{{weight.key}}"></ngx-slider>
+            <div class="weight_control_line">
+                <div *ngFor="let weight of weights" class="control_block">
+                    <label>{{weight.title}}</label>
+                    <div class="custom_slider_div">
+                        <ngx-slider [(value)]="weight.value" [options]="sliderOptions" id="{{weight.key}}"></ngx-slider>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</ng-scrollbar>

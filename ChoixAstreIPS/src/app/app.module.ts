@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { BrowserModule } from '@angular/platform-browser';
 import {NgxSliderModule} from "@angular-slider/ngx-slider";
+import {NgScrollbarModule} from "ngx-scrollbar";
 
 
 
@@ -17,7 +18,8 @@ import {NgxSliderModule} from "@angular-slider/ngx-slider";
     BrowserModule,
     FormsModule,
     NgSelectModule,
-    NgxSliderModule
+    NgxSliderModule,
+    NgScrollbarModule
   ],
   bootstrap: [AppComponent]
 })
