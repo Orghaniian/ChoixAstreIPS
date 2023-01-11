@@ -20,9 +20,9 @@ export class AppComponent {
 
   public students: Indicator[] = data.map(e => new Indicator(e));
   public selectedStudent: Indicator | null = this.students[0];
-  readonly  weights: Map<string, number> = defaultWeights;
+  readonly weights: Map<string, number> = defaultWeights;
 
-  readonly  weightTitles: Map<string, string> = new Map<string, string>([
+  readonly weightTitles: Map<string, string> = new Map<string, string>([
     ["assos", "Participation dans les associations"],
     ["devices", "Intêret pour l'utilisation de de certaines machines"],
     ["highschoolSubjects", "Attrait pour certaines matières au lycée"],
@@ -34,4 +34,30 @@ export class AppComponent {
     ["softwaresUsage", "Habitude d'utilisation de certains logiciels"],
     ["technos", "Intérêt pour certains technologies"]
   ]);
+
+  ngOnInit(): void {
+  }
+
+  ngAfterInit(): void {
+    this.calculateBubblePosition();
+  }
+
+  public calculateBubblePosition(): void {
+    if (this.selectedStudent) {
+      let score = this.selectedStudent.computeProbability(this.weights);
+      // Calcul schlag
+      // -1 -> margin-left 10%
+      // 1 -> margin-left 70%
+      let bubble_element = document.getElementById('bubble_indication_block');
+      if (bubble_element) {
+        bubble_element.style.marginLeft = this.pourcentageToMarginLeft(score);
+      }
+    }
+
+  }
+
+  public pourcentageToMarginLeft(_score: number): string {
+    return '30%';
+  }
+
 }

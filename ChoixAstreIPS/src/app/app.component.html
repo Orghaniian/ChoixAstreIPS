@@ -1,48 +1,51 @@
 <div class="full_page">
 
     <h1>Astre ou IPS: El Grando Predicator</h1>
-  
+
     <div class="choix_eleve_div">
         <p>Choisir un-e élève spécifique</p>
-        <ng-select [items]="students" [(ngModel)]="selectedStudent" bindLabel="id"
-                        [ngModelOptions]="{standalone: true}" id="student"></ng-select>
+        <ng-select [items]="students" [(ngModel)]="selectedStudent" bindLabel="id" [ngModelOptions]="{standalone: true}"
+            id="student"></ng-select>
     </div>
 
     <div class="student_prediction_dashboard">
 
         <div *ngIf="selectedStudent != null" class="color_indicator_div">
-            <div class="bubble_indicator_line">
-                <div class="indicator_student">
-                    <p>{{selectedStudent.id || 'null' }}</p>
+            <div class="bubble_indication_block" id="bubble_indication_block">
+                <div class="bubble_indicator_line">
+                    <div class="indicator_student_bubble">
+                        <p>{{selectedStudent.id || 'null' }}</p>
+                    </div>
+                    <div class="indicator_student_pointer"></div>
                 </div>
             </div>
 
             <div class="bar_indicator_line">
-                <div class="left_label_bar_indicator">
-                    <p>IPS</p>
+                <div class="label_spe_bar_indicator">
+                    <p class="left_label">IPS</p>
                 </div>
                 <div class="gradient_bar"></div>
-                <div class="right_label_bar_indicator">
-                    <p>ASTRE</p>
+                <div class="label_spe_bar_indicator">
+                    <p class="right_label">ASTRE</p>
                 </div>
             </div>
-            <h2>Score</h2>
-            <h1>{{ selectedStudent.computeProbability(weights) }}</h1>
-            <p>L’élève {{ selectedStudent.id }} deviendra un-e élève IPS ! </p>
         </div>
+
+        <h2>Score</h2>
+        <h1>{{ selectedStudent?.computeProbability(weights) }}</h1>
+        <p>L’élève {{ selectedStudent?.id }} deviendra un-e élève IPS ! </p>
 
 
         <div class="weight_control_line">
             <div *ngFor="let weight of weights | keyvalue" class="control_block">
                 <label>{{weightTitles.get(weight.key)}}</label>
                 <div class="custom_slider_div">
-                    <ngx-slider [(value)]="weight.value" [options]="sliderOptions"
-                                id="{{weight.key}}"></ngx-slider>
+                    <ngx-slider [(value)]="weight.value" [options]="sliderOptions" id="{{weight.key}}"></ngx-slider>
                 </div>
             </div>
         </div>
-        <div *ngFor="let weight of weights | keyvalue" >
+        <div *ngFor="let weight of weights | keyvalue">
             <p>{{weight.value}}</p>
         </div>
     </div>
-  </div>
+</div>

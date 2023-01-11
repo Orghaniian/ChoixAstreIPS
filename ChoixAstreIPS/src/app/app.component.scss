@@ -1,4 +1,4 @@
-.full_page{
+.full_page {
     display: flex;
     flex-direction: column;
     background: var(--bg-color);
@@ -43,55 +43,78 @@
 }
 
 .color_indicator_div {
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-direction: column;
+    margin: 3rem auto 0 auto;
+    // background-color: antiquewhite;
 }
 
 .bubble_indicator_line {
-
+    height: 5rem;
 }
 
-.indicator_student {
-    background: var(--grey2-color);
+.bubble_indication_block {
     width: fit-content;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+.indicator_student_bubble {
+    height: 3rem;
+    width: 9rem;
+	// min-width: 200px;
+	background: var(--grey-color);
+	display: block;
+    margin: 0 auto;
+	border-radius: 20px;
+	// margin-top: 50px;
+	text-align: center;
+}
+
+.indicator_student_pointer {
+    height: 40px;
+	width: 40px;
+	background: var(--grey-color);
+    margin: 0 auto;
+	transform: rotate(45deg);
+	// border-radius: 0 0 12px 0;
+	margin-top: -22px;
+	// position: relative;
+	// left: calc(0.5vw - 50px);
 }
 
 .bar_indicator_line {
- width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    background: orange;
+    // background: orange;
     align-items: center;
     margin: 0 auto;
     align-self: center;
 }
 
-.left_label_bar_indicator {
-    width: 8rem;
-    background: darkcyan;
+.label_spe_bar_indicator {
+    // background: darkcyan;
+    padding: 0 2rem;
 
-    & p {
-    color: var(--violet-color);
-        font-size: 4rem;
-        margin: 0 auto;
-      }
-}
+    & .left_label {
+        color: var(--violet-color);
+        font-size: 3rem;
+    }
 
-.right_label_bar_indicator {
-    width: 10%;
-    background: darkviolet;
-
-& p {
-      color: var(--blue-color);
-    font-size: 4rem;
-    margin: 0 auto;
-  }
+    & .right_label {
+        color: var(--blue-color);
+        font-size: 3rem;
+    }
 }
 
 .gradient_bar {
-    height: 15px;
+    height: 20px;
     width: 80%;
-    background-image: linear-gradient(to right, var(--violet-color) , var(--blue-color));
+    min-width: 20rem;
+    background-image: linear-gradient(to right, var(--violet-color), var(--blue-color));
     border-radius: 2rem;
 }
