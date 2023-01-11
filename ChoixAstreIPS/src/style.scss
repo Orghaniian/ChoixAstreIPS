@@ -1,0 +1,159 @@
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #EAEAEA;
+  background-color: #2C2B29;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --text-color: #CACACA;
+  --bg-color: #2C2B29;
+  --grey-color: #515050;
+  --grey2-color: #3E3E3E;
+  --grey3-color: #848484;
+  --violet-color: #A22BB6;
+  --blue-color: #42BBC2;
+
+}
+
+body {
+  /*height: 100vh;
+  width: 100vw;*/
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  font-family: 'Open Sans';
+  color: var(--text-color);
+  margin: 0 auto;
+  font-size: 1em;
+}
+
+h1 {
+  font-family: 'Open Sans';
+  color: var(--text-color);
+  margin: 2rem auto;
+  font-weight: normal;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Open Sans';
+  color: var(--text-color);
+  margin: 1rem auto;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Open Sans';
+  color: var(--text-color);
+  margin: 0 auto;
+  font-weight: normal;
+  text-align: center;
+}
+
+// >>>>>>>>>>>> Custom ng-select style >>>>>>>>>>>>>>
+   ng-select {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 1em;
+     width: 10rem;
+     margin: 1rem auto 0 auto;
+
+& input {
+    color: var(--text-color) !important;
+  }
+
+& .ng-value {
+    font-size: 0.95em;
+    color: var(--text-color) !important;
+  }
+
+& .ng-option-label {
+    font-size: 0.95em;
+    color: var(--text-color) !important;
+  }
+
+& .ng-option .ng-option-disabled {
+    font-size: 0.95em;
+  }
+
+& .ng-select-container {
+    background-color: var(--grey-color) !important;
+    border: 0 !important;
+    border-radius: 0.6rem !important;
+    height: 2.2rem !important;
+  }
+
+& .ng-dropdown-panel {
+    border: 0 !important;
+
+& .ng-option {
+    background-color: var(--grey-color) !important;
+    white-space: normal !important;
+
+&.ng-option-marked {
+   background-color: var(--grey-color-hover) !important;
+
+&:hover {
+   background-color: var(--grey-color-hover) !important;
+ }
+}
+}
+
+& .ng-optgroup {
+    background-color: var(--grey-color) !important;
+  }
+}
+}
+
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// >>>>>>>>> Custom ngx slider style >>>>>>>>
+.ngx-slider {
+  & .ngx-slider-pointer {
+    background-color: var(--grey-color) !important;
+    width: 20px !important;
+    height: 20px !important;
+    // margin-left: 7px !important;
+    margin-top: 5px !important;
+  }
+
+  & .ngx-slider-pointer:after {
+    display: none;
+  }
+
+  & .ngx-slider-bar {
+    background-color: var(--grey3-color) !important;
+  }
+
+  & .ngx-slider-selection {
+    background-color: var(--grey-color) !important;
+  }
+
+  & .ngx-slider-tick {
+    .ngx-slider-tick-value {
+       color: var(--text-color);
+    }
+  }
+
+  & .ngx-slider-bubble {
+    color: var(--text-color) !important;
+    font-family: 'Open Sans';
+    // margin-left: 7px;
+  }
+}
+
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

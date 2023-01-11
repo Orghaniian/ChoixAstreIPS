@@ -1,0 +1,97 @@
+.full_page{
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-color);
+}
+
+.choix_eleve_div {
+    display: inherit;
+    flex-direction: inherit;
+}
+
+.student_prediction_dashboard {
+    display: inherit;
+    flex-direction: inherit;
+}
+
+.weight_control_line {
+    display: inherit;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.control_block {
+    display: inherit;
+    flex-direction: row;
+    /*background: red;*/
+    margin: 0.5rem auto;
+
+
+    label {
+        font-family: 'Open Sans';
+        color: var(--text-color);
+        margin: auto 1rem auto auto;
+        font-size: 1em;
+        background: var(--grey2-color);
+        padding: 0.5rem 1rem;
+        border-radius: 0.8rem;
+    }
+}
+
+.custom_slider_div {
+    width: 20rem;
+}
+
+.color_indicator_div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bubble_indicator_line {
+
+}
+
+.indicator_student {
+    background: var(--grey2-color);
+    width: fit-content;
+}
+
+.bar_indicator_line {
+ width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: orange;
+    align-items: center;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.left_label_bar_indicator {
+    width: 8rem;
+    background: darkcyan;
+
+    & p {
+    color: var(--violet-color);
+        font-size: 4rem;
+        margin: 0 auto;
+      }
+}
+
+.right_label_bar_indicator {
+    width: 10%;
+    background: darkviolet;
+
+& p {
+      color: var(--blue-color);
+    font-size: 4rem;
+    margin: 0 auto;
+  }
+}
+
+.gradient_bar {
+    height: 15px;
+    width: 80%;
+    background-image: linear-gradient(to right, var(--violet-color) , var(--blue-color));
+    border-radius: 2rem;
+}

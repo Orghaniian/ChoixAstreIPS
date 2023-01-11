@@ -3,32 +3,46 @@
     <h1>Astre ou IPS: El Grando Predicator</h1>
   
     <div class="choix_eleve_div">
-        <label>Choisir un-e élève spécifique</label>
-        <ng-select [items]="students" [(ngModel)]="selectedStudent"
+        <p>Choisir un-e élève spécifique</p>
+        <ng-select [items]="students" [(ngModel)]="selectedStudent" bindLabel="id"
                         [ngModelOptions]="{standalone: true}" id="student"></ng-select>
     </div>
-  
+
     <div class="student_prediction_dashboard">
-  
+
+        <div *ngIf="selectedStudent != null" class="color_indicator_div">
+            <div class="bubble_indicator_line">
+                <div class="indicator_student">
+                    <p>{{selectedStudent.id || 'null' }}</p>
+                </div>
+            </div>
+
+            <div class="bar_indicator_line">
+                <div class="left_label_bar_indicator">
+                    <p>IPS</p>
+                </div>
+                <div class="gradient_bar"></div>
+                <div class="right_label_bar_indicator">
+                    <p>ASTRE</p>
+                </div>
+            </div>
+            <h2>Score</h2>
+            <h1>{{ selectedStudent.computeProbability(weights) }}</h1>
+            <p>L’élève {{ selectedStudent.id }} deviendra un-e élève IPS ! </p>
+        </div>
+
+
         <div class="weight_control_line">
-            <div class="control_block">
-                <label>Paradigme</label>
-                <div class="sub_control_block">
-                    <div class="spec_value_div">
-                        <p>0.33248</p>
-                    </div>
-                    <div class="weight_value_control">
-                        <img src="" alt="" class="weight_modifier_left_button"/>
-                        <p>0.8</p>
-                        <img src="" alt="" class="weight_modifier_right_button"/>
-                    </div>
+            <div *ngFor="let weight of weights | keyvalue" class="control_block">
+                <label>{{weightTitles.get(weight.key)}}</label>
+                <div class="custom_slider_div">
+                    <ngx-slider [(value)]="weight.value" [options]="sliderOptions"
+                                id="{{weight.key}}"></ngx-slider>
                 </div>
             </div>
         </div>
-  
-        <h1>Score</h1>
-        <h1>0.5489</h1>
-        <p>L’élève e2022147858 deviendra un-e élève IPS ! </p>
-  
+        <div *ngFor="let weight of weights | keyvalue" >
+            <p>{{weight.value}}</p>
+        </div>
     </div>
   </div>

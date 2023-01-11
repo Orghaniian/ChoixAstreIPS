@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { BrowserModule } from '@angular/platform-browser';
+import {NgxSliderModule} from "@angular-slider/ngx-slider";
 
 
 
@@ -15,7 +16,8 @@ import { BrowserModule } from '@angular/platform-browser';
     CommonModule,
     BrowserModule,
     FormsModule,
-    NgSelectModule
+    NgSelectModule,
+    NgxSliderModule
   ],
   bootstrap: [AppComponent]
 })

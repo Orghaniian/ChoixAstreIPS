@@ -6,11 +6,12 @@
   "scripts": {
     "tauri": "tauri",
     "ng": "ng",
-    "dev": "ng serve --port 1420",
+    "dev": "ng serve --port 1420 ",
     "build": "ng build",
     "watch": "ng build --watch --configuration development"
   },
   "dependencies": {
+    "@angular-slider/ngx-slider": "^2.0.4",
     "@angular/animations": "^15.0.0",
     "@angular/common": "^15.0.0",
     "@angular/compiler": "^15.0.0",
