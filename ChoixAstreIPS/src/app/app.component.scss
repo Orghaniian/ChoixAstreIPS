@@ -30,7 +30,7 @@
 
 
     label {
-        font-family: 'Open Sans';
+        font-family: 'Open Sans', sans-serif;
         color: var(--text-color);
         margin: auto 1rem auto auto;
         font-size: 1em;
@@ -122,4 +122,12 @@
     min-width: 20rem;
     background-image: linear-gradient(to right, var(--violet-color), var(--blue-color));
     border-radius: 2rem;
+}
+
+.ips {
+    color: var(--violet-color);
+}
+
+.astre {
+    color: var(--blue-color)
 }

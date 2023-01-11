@@ -31,9 +31,9 @@
             </div>
         </div>
 
-        <h2>Score</h2>
+        <h2 *ngIf="selectedStudent != null">Score</h2>
         <h1 *ngIf="selectedStudent != null">{{ selectedStudent.computeProbability(weights) | number: '1.5-5' }}</h1>
-        <p>L’élève {{ selectedStudent?.id }} deviendra un-e élève IPS ! </p>
+        <p *ngIf="selectedStudent != null">L’élève {{ selectedStudent?.id }} deviendra un-e élève <span [ngClass]="{'ips': isIPS(), 'astre': !isIPS()}">{{ isIPS() ? "IPS" : "ASTRE" }}</span> ! </p>
 
 
         <div class="weight_control_line">
