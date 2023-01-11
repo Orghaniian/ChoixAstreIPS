@@ -29,6 +29,10 @@ export class AppComponent {
     this.calculateBubblePosition();
   }
 
+  public weightValueChanged(): void {
+    this.calculateBubblePosition();
+  }
+
   public calculateBubblePosition(): void {
     if (this.selectedStudent) {
       let score = this.selectedStudent.computeProbability(this.weights);
