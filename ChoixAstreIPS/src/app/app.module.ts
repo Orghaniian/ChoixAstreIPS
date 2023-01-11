@@ -6,12 +6,14 @@ import { NgSelectModule } from '@ng-select/ng-select';
 import { BrowserModule } from '@angular/platform-browser';
 import {NgxSliderModule} from "@angular-slider/ngx-slider";
 import {NgScrollbarModule} from "ngx-scrollbar";
+import { TitlebarComponent } from './titlebar/titlebar.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TitlebarComponent
   ],
   imports: [
     CommonModule,

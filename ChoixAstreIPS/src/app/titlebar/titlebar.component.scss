@@ -1,0 +1,32 @@
+.titlebar {
+  height: 30px;
+  background: #1D2021;
+  user-select: none;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.titlebar-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.titlebar-button > svg {
+  fill: white;
+}
+.titlebar-button:hover {
+  background:#303436;
+}
+.title {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translateX(50%) translateY(-50%);
+}
