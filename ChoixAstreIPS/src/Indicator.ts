@@ -35,8 +35,6 @@ class Indicator {
             totalWeight += weight.value;
         })
 
-        console.log("probability: ", value / totalWeight, weights);
-
         const proba = value / totalWeight;
 
         if (proba < 0) return 0;

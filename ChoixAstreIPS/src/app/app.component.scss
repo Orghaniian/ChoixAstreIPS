@@ -51,7 +51,7 @@
     width: 70%;
     display: flex;
     flex-direction: column;
-    margin: 3rem auto 0 auto;
+    margin: 3rem auto 1rem auto;
     // background-color: antiquewhite;
 }
 
@@ -70,25 +70,25 @@
 .indicator_student_bubble {
     height: 3rem;
     width: 9rem;
-	// min-width: 200px;
-	background: var(--grey-color);
-	display: block;
+    // min-width: 200px;
+    background: var(--grey-color);
+    display: block;
     margin: 0 auto;
-	border-radius: 20px;
-	// margin-top: 50px;
-	text-align: center;
+    border-radius: 20px;
+    // margin-top: 50px;
+    text-align: center;
 }
 
 .indicator_student_pointer {
     height: 40px;
-	width: 40px;
-	background: var(--grey-color);
+    width: 40px;
+    background: var(--grey-color);
     margin: 0 auto;
-	transform: rotate(45deg);
-	// border-radius: 0 0 12px 0;
-	margin-top: -22px;
-	// position: relative;
-	// left: calc(0.5vw - 50px);
+    transform: rotate(45deg);
+    // border-radius: 0 0 12px 0;
+    margin-top: -22px;
+    // position: relative;
+    // left: calc(0.5vw - 50px);
 }
 
 .bar_indicator_line {
@@ -106,12 +106,12 @@
     padding: 0 2rem;
 
     & .left_label {
-        color: var(--violet-color);
+        color: var(--blue-color);
         font-size: 3rem;
     }
 
     & .right_label {
-        color: var(--blue-color);
+        color: var(--violet-color);
         font-size: 3rem;
     }
 }
@@ -120,6 +120,19 @@
     height: 20px;
     width: 80%;
     min-width: 20rem;
-    background-image: linear-gradient(to right, var(--violet-color), var(--blue-color));
+    background-image: linear-gradient(to right, var(--blue-color), var(--violet-color));
     border-radius: 2rem;
+}
+
+.score_div {
+
+    margin-bottom: 2rem;
+
+    & h1 {
+        margin: 0 auto 1rem auto;
+    }
+
+    & p {
+        text-align: center;
+    }
 }

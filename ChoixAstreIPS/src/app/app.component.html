@@ -22,25 +22,27 @@
 
             <div class="bar_indicator_line">
                 <div class="label_spe_bar_indicator">
-                    <p class="left_label">IPS</p>
+                    <p class="left_label">ASTRE</p>
                 </div>
                 <div class="gradient_bar"></div>
                 <div class="label_spe_bar_indicator">
-                    <p class="right_label">ASTRE</p>
+                    <p class="right_label">IPS</p>
                 </div>
             </div>
         </div>
 
-        <h2>Score</h2>
-        <h1 *ngIf="selectedStudent != null">{{ selectedStudent.computeProbability(weights) }}</h1>
-        <p>L’élève {{ selectedStudent?.id }} deviendra un-e élève IPS ! </p>
+        <div class="score_div">
+            <h2>Score</h2>
+            <h1 *ngIf="selectedStudent != null">{{ selectedStudent.computeProbability(weights) }}</h1>
+            <p>L’élève {{ selectedStudent?.id }} deviendra un-e élève IPS ! </p>
+        </div>
 
 
         <div class="weight_control_line">
             <div *ngFor="let weight of weights" class="control_block">
                 <label>{{weight.title}}</label>
                 <div class="custom_slider_div">
-                    <ngx-slider [(value)]="weight.value" [options]="sliderOptions" id="{{weight.key"></ngx-slider>
+                    <ngx-slider [(value)]="weight.value" [options]="sliderOptions" id="{{weight.key}}"></ngx-slider>
                 </div>
             </div>
         </div>
