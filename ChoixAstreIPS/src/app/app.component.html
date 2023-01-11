@@ -45,7 +45,7 @@
             <div *ngFor="let weight of weights" class="control_block">
                 <label>{{weight.title}}</label>
                 <div class="custom_slider_div">
-                    <ngx-slider [(value)]="weight.value" [options]="sliderOptions" id="{{weight.key}}"></ngx-slider>
+                    <ngx-slider [(value)]="weight.value" [options]="sliderOptions" id="{{weight.key}}" (valueChange)="weightValueChanged()"></ngx-slider>
                 </div>
             </div>
         </div>
