@@ -35,10 +35,7 @@ class Indicator {
             totalWeight += weight.value;
         })
 
-        const proba = value / totalWeight;
-
-        if (proba < 0) return 0;
-        return proba;
+        return value / totalWeight;
     }
 }
 
