@@ -19,7 +19,7 @@ export class AppComponent {
   }
 
   readonly students: Indicator[] = data.map(e => new Indicator(e));
-  public selectedStudent: Indicator | null = this.students[0];
+  public selectedStudent!: Indicator | null;
   public weights: Weight[] = defaultWeights;
 
   public weightValueChanged = this.calculateBubblePosition;

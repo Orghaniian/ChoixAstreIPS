@@ -31,27 +31,29 @@
 }
 
 .indicator_student_bubble {
+    display: flex;
     height: 3rem;
     width: 9rem;
-    // min-width: 200px;
     background: var(--grey-color);
-    display: block;
     margin: 0 auto;
     border-radius: 20px;
-    // margin-top: 50px;
     text-align: center;
+    position: relative;
+    align-items: center;
 }
 
-.indicator_student_pointer {
-    height: 40px;
-    width: 40px;
-    background: var(--grey-color);
-    margin: 0 auto;
-    transform: rotate(45deg);
-    // border-radius: 0 0 12px 0;
-    margin-top: -22px;
-    // position: relative;
-    // left: calc(0.5vw - 50px);
+.indicator_student_bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid var(--grey-color);
+	margin-left: -20px;
+	margin-bottom: -30px;
 }
 
 .bar_indicator_line {
