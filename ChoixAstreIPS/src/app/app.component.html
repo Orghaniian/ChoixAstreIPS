@@ -10,7 +10,8 @@
         <app-proba-bar *ngIf="selectedStudent else allStudentsView" [selectedStudent]="selectedStudent" [weights]="weights" (init)="calculateBubblePosition()"></app-proba-bar>
 
         <ng-template #allStudentsView>
-            <p style="margin-top: 1rem">Aucun-e étudiant-e sélectioné-e, vue d'ensemble activé</p>
+            <p style="margin-top: 1rem">Aucun numéro étudiant sélectionné, vue d'ensemble activée</p>
+            <app-proba-bar-all-students></app-proba-bar-all-students>
         </ng-template>
 
         <div class="weight_control_line">

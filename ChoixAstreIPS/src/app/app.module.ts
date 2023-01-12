@@ -8,6 +8,7 @@ import {NgxSliderModule} from "@angular-slider/ngx-slider";
 import {NgScrollbarModule} from "ngx-scrollbar";
 import { TitlebarComponent } from './titlebar/titlebar.component';
 import { ProbaBarComponent } from './proba-bar/proba-bar.component';
+import { ProbaBarAllStudentsComponent } from './proba-bar-all-students/proba-bar-all-students.component';
 
 
 
@@ -15,7 +16,8 @@ import { ProbaBarComponent } from './proba-bar/proba-bar.component';
   declarations: [
     AppComponent,
     TitlebarComponent,
-    ProbaBarComponent
+    ProbaBarComponent,
+    ProbaBarAllStudentsComponent
   ],
   imports: [
     CommonModule,

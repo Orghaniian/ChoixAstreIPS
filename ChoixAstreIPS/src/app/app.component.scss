@@ -42,3 +42,9 @@
     min-width: 20rem;
     margin-right: 2rem;
 }
+
+.gradient_bar2 {
+    height: 20px;
+    background-image: linear-gradient(to right, var(--blue-color), var(--violet-color));
+    border-radius: 2rem;
+}
