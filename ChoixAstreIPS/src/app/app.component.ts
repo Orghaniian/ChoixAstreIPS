@@ -29,9 +29,8 @@ export class AppComponent {
     this.calculateBubblePosition();
   }
 
-  public weightValueChanged(): void {
-    this.calculateBubblePosition();
-  }
+  public weightValueChanged = this.calculateBubblePosition;
+  public selectedStudentChanged = this.calculateBubblePosition;
 
   public calculateBubblePosition(): void {
     if (this.selectedStudent) {
@@ -50,8 +49,7 @@ export class AppComponent {
   }
 
   public pourcentageToMarginLeft(_score: number): string {
-    console.log(60 * Math.log10(_score + 2) + 10);
-    return `${60 * Math.log10(_score + 2) + 10}%`;
+    return `${(_score+1)*50}%`;
   }
 
   public isIPS(): boolean {

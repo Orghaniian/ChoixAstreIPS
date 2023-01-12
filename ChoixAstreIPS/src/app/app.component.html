@@ -3,27 +3,29 @@
     <div class="full_page">
         <div class="choix_eleve_div">
             <p>Choisir un-e élève spécifique</p>
-            <ng-select [items]="students" [(ngModel)]="selectedStudent" bindLabel="id" [ngModelOptions]="{standalone: true}"
-                       id="student"></ng-select>
+            <ng-select [items]="students" [(ngModel)]="selectedStudent" bindLabel="id"
+                [ngModelOptions]="{standalone: true}" id="student" (change)="selectedStudentChanged()"></ng-select>
         </div>
 
         <div class="student_prediction_dashboard">
 
             <div *ngIf="selectedStudent != null" class="color_indicator_div">
-                <div class="bubble_indication_block" id="bubble_indication_block">
-                    <div class="bubble_indicator_line">
-                        <div class="indicator_student_bubble">
-                            <p>{{selectedStudent.id || 'null' }}</p>
-                        </div>
-                        <div class="indicator_student_pointer"></div>
-                    </div>
-                </div>
 
                 <div class="bar_indicator_line">
                     <div class="label_spe_bar_indicator">
                         <p class="left_label">ASTRE</p>
                     </div>
-                    <div class="gradient_bar"></div>
+                    <div class="bar_bubble_div">
+                        <div class="bubble_indication_block" id="bubble_indication_block">
+                            <div class="bubble_indicator_line">
+                                <div class="indicator_student_bubble">
+                                    <p>{{selectedStudent.id || 'null' }}</p>
+                                </div>
+                                <div class="indicator_student_pointer"></div>
+                            </div>
+                        </div>
+                        <div class="gradient_bar"></div>
+                    </div>
                     <div class="label_spe_bar_indicator">
                         <p class="right_label">IPS</p>
                     </div>
@@ -32,19 +34,18 @@
 
             <div class="score_div">
                 <h2 *ngIf="selectedStudent != null">Score</h2>
-                <h1 *ngIf="selectedStudent != null">{{ selectedStudent.computeProbability(weights) | number: '1.5-5' }}</h1>
+                <h1 *ngIf="selectedStudent != null">{{ selectedStudent.computeProbability(weights) | number: '1.5-5' }}
+                </h1>
                 <p *ngIf="selectedStudent != null">L’élève {{ selectedStudent.id }} deviendra un-e élève <span
                         [ngClass]="{'ips': isIPS(), 'astre': !isIPS()}">{{ isIPS() ? "IPS" : "ASTRE" }}</span> ! </p>
             </div>
-
-
-
 
             <div class="weight_control_line">
                 <div *ngFor="let weight of weights" class="control_block">
                     <label>{{weight.title}}</label>
                     <div class="custom_slider_div">
-                        <ngx-slider [(value)]="weight.value" [options]="sliderOptions" id="{{weight.key}}" (valueChange)="weightValueChanged()"></ngx-slider>
+                        <ngx-slider [(value)]="weight.value" [options]="sliderOptions" id="{{weight.key}}"
+                            (valueChange)="weightValueChanged()"></ngx-slider>
                     </div>
                 </div>
             </div>

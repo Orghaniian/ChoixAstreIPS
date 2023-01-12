@@ -56,6 +56,11 @@
     // background-color: antiquewhite;
 }
 
+.bar_bubble_div {
+    width: 80%;
+    min-width: 20rem;
+}
+
 .bubble_indicator_line {
     height: 5rem;
 }
@@ -66,6 +71,8 @@
     margin-bottom: 0;
     margin-left: 20%;
     margin-right: auto;
+    transform: translateX(-50%);
+    transition: margin-left 0.5s ease-in-out;
 }
 
 .indicator_student_bubble {
@@ -97,7 +104,7 @@
     display: flex;
     flex-direction: row;
     // background: orange;
-    align-items: center;
+    align-items: end;
     margin: 0 auto;
     align-self: center;
 }
@@ -105,6 +112,7 @@
 .label_spe_bar_indicator {
     // background: darkcyan;
     padding: 0 2rem;
+    width: 8rem;
 
     & .left_label {
         color: var(--blue-color);
@@ -119,8 +127,6 @@
 
 .gradient_bar {
     height: 20px;
-    width: 80%;
-    min-width: 20rem;
     background-image: linear-gradient(to right, var(--blue-color), var(--violet-color));
     border-radius: 2rem;
 }
