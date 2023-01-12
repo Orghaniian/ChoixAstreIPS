@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import data from "../assets/indicateurs.json";
-import {Indicator, Weight, defaultWeights} from "../Indicator";
-import { Options } from '@angular-slider/ngx-slider';
+import {Indicator, Weight, getDefaultWeights} from "../Indicator";
 
 @Component({
   selector: 'app-root',
@@ -10,20 +9,9 @@ import { Options } from '@angular-slider/ngx-slider';
 })
 export class AppComponent {
 
-  sliderOptions: Options = {
-    floor: 0,
-    ceil: 1,
-    step: 0.1,
-    showTicksValues: false,
-    showTicks: false
-  }
-
   readonly students: Indicator[] = data.map(e => new Indicator(e));
   public selectedStudent!: Indicator | null;
-  public weights: Weight[] = defaultWeights;
-
-  public weightValueChanged = this.calculateBubblePosition;
-  public selectedStudentChanged = this.calculateBubblePosition;
+  public weights: Weight[] = getDefaultWeights();
 
   public calculateBubblePosition(): void {
     if (this.selectedStudent) {
@@ -39,5 +27,4 @@ export class AppComponent {
   public pourcentageToMarginLeft(_score: number): string {
     return `${(_score+1)*50}%`;
   }
-
 }

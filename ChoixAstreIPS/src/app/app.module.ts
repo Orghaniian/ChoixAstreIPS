@@ -9,6 +9,7 @@ import {NgScrollbarModule} from "ngx-scrollbar";
 import { TitlebarComponent } from './titlebar/titlebar.component';
 import { ProbaBarComponent } from './proba-bar/proba-bar.component';
 import { ProbaBarAllStudentsComponent } from './proba-bar-all-students/proba-bar-all-students.component';
+import { WeightsControlComponent } from './weights-control/weights-control.component';
 
 
 
@@ -17,7 +18,8 @@ import { ProbaBarAllStudentsComponent } from './proba-bar-all-students/proba-bar
     AppComponent,
     TitlebarComponent,
     ProbaBarComponent,
-    ProbaBarAllStudentsComponent
+    ProbaBarAllStudentsComponent,
+    WeightsControlComponent
   ],
   imports: [
     CommonModule,
