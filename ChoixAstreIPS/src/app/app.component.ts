@@ -52,9 +52,4 @@ export class AppComponent {
     return `${(_score+1)*50}%`;
   }
 
-  public isIPS(): boolean {
-    if(this.selectedStudent == null) return false;
-
-    return this.selectedStudent.computeProbability(this.weights) > 0;
-  }
 }

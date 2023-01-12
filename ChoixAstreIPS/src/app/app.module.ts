@@ -7,13 +7,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import {NgxSliderModule} from "@angular-slider/ngx-slider";
 import {NgScrollbarModule} from "ngx-scrollbar";
 import { TitlebarComponent } from './titlebar/titlebar.component';
+import { ProbaBarComponent } from './proba-bar/proba-bar.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TitlebarComponent
+    TitlebarComponent,
+    ProbaBarComponent
   ],
   imports: [
     CommonModule,
