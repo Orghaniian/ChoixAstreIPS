@@ -11,7 +11,7 @@
 
         <ng-template #allStudentsView>
             <p style="margin-top: 1rem">Aucun numéro étudiant sélectionné, vue d'ensemble activée</p>
-            <app-proba-bar-all-students></app-proba-bar-all-students>
+            <app-proba-bar-all-students [studentsIndicators]="students" [indicatorsWeights]="weights"></app-proba-bar-all-students>
         </ng-template>
 
         <div class="weight_control_line">
