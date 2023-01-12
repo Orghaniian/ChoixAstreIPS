@@ -13,23 +13,22 @@ export class ProbaBarAllStudentsComponent {
   public ipsAmount!: number;
   public astreAmount!: number;
 
-  ngAfterContentInit(): void {
-    this.calculateAmountIPSandASTRE();
+  ngAfterContentChecked(): void {
+    this.calculateAmountIPSandASTRE(this.indicatorsWeights);
   }
 
-  public calculateAmountIPSandASTRE(): void {
+  public calculateAmountIPSandASTRE(weights: Weight[]): void {
     let tempIpsAmount = 0;
     let tempAstreAmount = 0;
     this.studentsIndicators.forEach((studentIndication: Indicator) => {
-      if(studentIndication.computeProbability(this.indicatorsWeights) > 0) {
+      if(studentIndication.computeProbability(weights) > 0) {
         tempIpsAmount++;
-      } else if (studentIndication.computeProbability(this.indicatorsWeights) < 0) {
+      } else if (studentIndication.computeProbability(weights) < 0) {
         tempAstreAmount++;
       }
     });
     this.ipsAmount = tempIpsAmount;
     this.astreAmount = tempAstreAmount;
-    console.log(tempAstreAmount, tempIpsAmount)
   }
 
 }
