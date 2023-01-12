@@ -8,7 +8,7 @@ import { Indicator, Weight } from 'src/Indicator';
 })
 export class ProbaBarComponent {
 
-  @Input() selectedStudent?: Indicator;
+  @Input() selectedStudent!: Indicator;
   @Input() weights: Weight[] = [];
   @Output() init = new EventEmitter();
 
@@ -17,10 +17,14 @@ export class ProbaBarComponent {
   }
 
 
-  public isIPS(): boolean {
-    if (this.selectedStudent == null) return false;
+  public caption(): string {
+    const proba = this.selectedStudent.computeProbability(this.weights);
 
-    return this.selectedStudent.computeProbability(this.weights) > 0;
+    if (proba == 0) return `Nous ne sommes pas en mesure de déterminer l'avenir de l'élève <span style="font-weight:bold;">${this.selectedStudent.id}</span>`;
+
+    const option = proba > 0 ? `<span class="ips">IPS</span>` : `<span class="astre">ASTRE</span>`
+
+    return `L’élève <span style="font-weight:bold;">${this.selectedStudent.id}</span> deviendra un-e élève ${option}`
   }
 
 }

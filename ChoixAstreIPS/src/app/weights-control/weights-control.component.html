@@ -1,0 +1,9 @@
+<div class="weight_control_line">
+    <div *ngFor="let weight of weights" class="control_block">
+        <label>{{weight.title}}</label>
+        <div class="custom_slider_div">
+            <ngx-slider [(value)]="weight.value" [options]="sliderOptions" id="{{weight.key}}"></ngx-slider>
+        </div>
+    </div>
+    <button class="btn" (click)="resetWeights()">Réinitialiser les poids</button>
+</div>

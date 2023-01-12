@@ -121,6 +121,33 @@ h3 {
 }
 }
 
+
+
+.btn {
+  margin: 1rem auto;
+  text-decoration: none;
+  background: var(--grey2-color);
+  color: var(--text-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.8rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--grey-color);
+  }
+}
+
+.ips {
+  color: var(--violet-color);
+}
+
+.astre {
+  color: var(--blue-color)
+}
+
 // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // >>>>>>>>> Custom ngx slider style >>>>>>>>

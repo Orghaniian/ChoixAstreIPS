@@ -35,10 +35,7 @@ class Indicator {
             totalWeight += weight.value;
         })
 
-        const proba = value / totalWeight;
-
-        if (proba < 0) return 0;
-        return proba;
+        return value / totalWeight;
     }
 }
 
@@ -70,5 +67,11 @@ const defaultWeights: Weight[] = [
     new Weight("technos", .5, "Intérêt pour certains technologies"),
 ]
 
+function getDefaultWeights(): Weight[] {
+    const result: Weight[] = [];
+    defaultWeights.forEach(val => result.push(Object.assign({}, val)));
+    return result;
+}
 
-export { Indicator, defaultWeights, Weight }
+
+export { Indicator, getDefaultWeights, Weight }

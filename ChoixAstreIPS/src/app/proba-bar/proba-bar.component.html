@@ -1,7 +1,7 @@
 
         <div class="student_prediction_dashboard">
 
-            <div *ngIf="selectedStudent != null" class="color_indicator_div">
+            <div class="color_indicator_div">
 
                 <div class="bar_indicator_line">
                     <div class="label_spe_bar_indicator">
@@ -11,7 +11,7 @@
                         <div class="bubble_indication_block" id="bubble_indication_block">
                             <div class="bubble_indicator_line">
                                 <div class="indicator_student_bubble">
-                                    <p>{{selectedStudent.id || 'null' }}</p>
+                                    <p>{{ selectedStudent.id }}</p>
                                 </div>
                                 <!-- <div class="indicator_student_pointer"></div> -->
                             </div>
@@ -25,11 +25,9 @@
             </div>
 
             <div class="score_div">
-                <h2 *ngIf="selectedStudent != null">Score</h2>
-                <h1 *ngIf="selectedStudent != null">{{ selectedStudent.computeProbability(weights) | number: '1.5-5' }}
-                </h1>
-                <p *ngIf="selectedStudent != null">L’élève {{ selectedStudent.id }} deviendra un-e élève <span
-                        [ngClass]="{'ips': isIPS(), 'astre': !isIPS()}">{{ isIPS() ? "IPS" : "ASTRE" }}</span> ! </p>
+                <h2>Score</h2>
+                <h1>{{ selectedStudent.computeProbability(weights) | number: '1.5-5' }}</h1>
+                <p [innerHTML]="caption()"></p>
             </div>
 
             
