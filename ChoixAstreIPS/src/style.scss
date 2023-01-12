@@ -218,3 +218,10 @@ h3 {
 
 // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 body { font-family: 'Open Sans', sans-serif; }
+
+
+.mdc-tooltip__surface {
+  background-color: var(--grey-color) !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 0.8rem !important;
+}
