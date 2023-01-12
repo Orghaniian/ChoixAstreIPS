@@ -10,6 +10,8 @@ import { TitlebarComponent } from './titlebar/titlebar.component';
 import { ProbaBarComponent } from './proba-bar/proba-bar.component';
 import { ProbaBarAllStudentsComponent } from './proba-bar-all-students/proba-bar-all-students.component';
 import { WeightsControlComponent } from './weights-control/weights-control.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatTooltipModule} from "@angular/material/tooltip";
 
 
 
@@ -27,7 +29,9 @@ import { WeightsControlComponent } from './weights-control/weights-control.compo
     FormsModule,
     NgSelectModule,
     NgxSliderModule,
-    NgScrollbarModule
+    NgScrollbarModule,
+    BrowserAnimationsModule,
+    MatTooltipModule
   ],
   bootstrap: [AppComponent]
 })

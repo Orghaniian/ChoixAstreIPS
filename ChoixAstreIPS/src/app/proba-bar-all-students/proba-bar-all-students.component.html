@@ -6,7 +6,13 @@
         </div>
         <div class="bar_bubble_div">
             <div class="gradient_bar" #gradientBar>
-                <div *ngFor="let student of studentsIndicators" id="{{student.id}}" class="dot" (click)="selectStudent.emit(student.id)"></div>
+                <div *ngFor="let student of studentsIndicators"
+                     id="{{student.id}}"
+                     class="dot"
+                     (click)="selectStudent.emit(student.id)"
+                     matTooltipPosition="above"
+                     matTooltip="{{student.id}}"
+                ></div>
             </div>
         </div>
         <div class="label_spe_bar_indicator">
