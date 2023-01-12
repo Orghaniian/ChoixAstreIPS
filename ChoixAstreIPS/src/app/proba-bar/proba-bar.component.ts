@@ -1,10 +1,11 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output, ViewEncapsulation } from '@angular/core';
 import { Indicator, Weight } from 'src/Indicator';
 
 @Component({
   selector: 'app-proba-bar',
   templateUrl: './proba-bar.component.html',
-  styleUrls: ['./proba-bar.component.scss']
+  styleUrls: ['./proba-bar.component.scss'],
+  encapsulation: ViewEncapsulation.None
 })
 export class ProbaBarComponent {
 
@@ -24,7 +25,7 @@ export class ProbaBarComponent {
 
     const option = proba > 0 ? `<span class="ips">IPS</span>` : `<span class="astre">ASTRE</span>`
 
-    return `L’élève <span style="font-weight:bold;">${this.selectedStudent.id}</span> deviendra un-e élève ${option}`
+    return `L’élève <span class="student_id">${this.selectedStudent.id}</span> deviendra un-e élève ${option}`
   }
 
 }

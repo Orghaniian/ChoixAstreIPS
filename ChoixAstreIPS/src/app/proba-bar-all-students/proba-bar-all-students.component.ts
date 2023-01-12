@@ -24,27 +24,26 @@ export class ProbaBarAllStudentsComponent {
     this.astreColor = css.getPropertyValue("--blue-color");
   }
 
-  ngAfterContentChecked(): void {
-    this.calculateAmountIPSandASTRE();
-  }
-
   ngAfterViewChecked(): void {
     this.updateDots();
   }
 
-  public calculateAmountIPSandASTRE(): void {
+  ngAfterContentChecked(): void {
+    this.calculateAmountIPSandASTRE(this.indicatorsWeights);
+  }
+
+  public calculateAmountIPSandASTRE(weights: Weight[]): void {
     let tempIpsAmount = 0;
     let tempAstreAmount = 0;
     this.studentsIndicators.forEach((studentIndication: Indicator) => {
-      if(studentIndication.computeProbability(this.indicatorsWeights) > 0) {
+      if(studentIndication.computeProbability(weights) > 0) {
         tempIpsAmount++;
-      } else if (studentIndication.computeProbability(this.indicatorsWeights) < 0) {
+      } else if (studentIndication.computeProbability(weights) < 0) {
         tempAstreAmount++;
       }
     });
     this.ipsAmount = tempIpsAmount;
     this.astreAmount = tempAstreAmount;
-    console.log(tempAstreAmount, tempIpsAmount)
   }
 
   public updateDots() {
