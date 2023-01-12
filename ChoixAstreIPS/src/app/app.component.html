@@ -7,7 +7,7 @@
                 [ngModelOptions]="{standalone: true}" id="student" (change)="selectedStudentChanged()"></ng-select>
         </div>
 
-        <app-proba-bar *ngIf="selectedStudent" [selectedStudent]="selectedStudent" [weights]="weights"></app-proba-bar>
+        <app-proba-bar *ngIf="selectedStudent" [selectedStudent]="selectedStudent" [weights]="weights" (init)="calculateBubblePosition()"></app-proba-bar>
 
         <div class="weight_control_line">
             <div *ngFor="let weight of weights" class="control_block">

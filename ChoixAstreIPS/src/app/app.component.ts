@@ -22,25 +22,13 @@ export class AppComponent {
   public selectedStudent: Indicator | null = this.students[0];
   public weights: Weight[] = defaultWeights;
 
-  ngOnInit(): void {
-  }
-
-  ngAfterInit(): void {
-    this.calculateBubblePosition();
-  }
-
   public weightValueChanged = this.calculateBubblePosition;
   public selectedStudentChanged = this.calculateBubblePosition;
 
   public calculateBubblePosition(): void {
     if (this.selectedStudent) {
       let score = this.selectedStudent.computeProbability(this.weights);
-      console.log(`Score: ${score}`);
-      // Calcul schlag
-      // -1 -> margin-left 10%
-      // 1 -> margin-left 70%
       let bubble_element = document.getElementById('bubble_indication_block');
-      console.log(`Bubble_element: ${bubble_element}`);
       if (bubble_element) {
         bubble_element.style.marginLeft = this.pourcentageToMarginLeft(score);
       }
