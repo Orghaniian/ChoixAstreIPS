@@ -27,4 +27,8 @@ export class AppComponent {
   public pourcentageToMarginLeft(_score: number): string {
     return `${(_score+1)*50}%`;
   }
+
+  public selectStudent(id: string) {
+    this.selectedStudent = this.students.find((s) => s.id === id)!;
+  }
 }

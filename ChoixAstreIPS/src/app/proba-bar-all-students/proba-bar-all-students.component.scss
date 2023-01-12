@@ -44,6 +44,7 @@
     height: 20px;
     background-image: linear-gradient(to right, var(--blue-color), var(--violet-color));
     border-radius: 2rem;
+    position: relative;
 }
 
 .score_div {
@@ -69,4 +70,20 @@
 
 .sumup_sentence {
     margin-top: 2rem;
+}
+
+.dot {
+    height: 16px;
+    width: 16px;
+    border: 2px solid var(--bg-color);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    transform: translateX(-50%);
+    cursor: pointer;
+
+    &:hover {
+        border-color: var(--text-color);
+        border-width: 3px;
+    }
 }
