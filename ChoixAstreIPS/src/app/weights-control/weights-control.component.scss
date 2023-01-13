@@ -41,10 +41,10 @@
 .presets {
   display: flex;
   flex-wrap: wrap;
+  gap: .5rem;
 
   .preset {
     display: inline-flex;
-    margin: 0 .5rem;
     text-decoration: none;
     background: var(--grey2-color);
     color: var(--text-color);
