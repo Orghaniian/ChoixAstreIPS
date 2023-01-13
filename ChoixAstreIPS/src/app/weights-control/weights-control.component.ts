@@ -2,11 +2,7 @@ import {Component, ElementRef, EventEmitter, Input, Output, QueryList, ViewChild
 import {getDefaultWeights, Weight} from "../../Indicator";
 import {Options} from "@angular-slider/ngx-slider";
 import {clone} from "../../ArrayUtils";
-
-interface WeightsPreset {
-  weights: Weight[]
-  name: string
-}
+import WeightsPreset from "./WeightsPreset";
 
 @Component({
   selector: 'app-weights-control',
@@ -78,8 +74,7 @@ export class WeightsControlComponent {
     }
   }
 
-  changePresetName(event: Event) {
-    const newName: string = (event.target as HTMLInputElement).value;
+  changePresetName(newName: string) {
     this.savedWeights[this.editingPreset!].name = newName.length > 0 ? newName : `Poids ${this.editingPreset}`;
     this.savePresetsToStorage();
   }

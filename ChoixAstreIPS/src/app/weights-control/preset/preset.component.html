@@ -1,0 +1,17 @@
+<div
+     class="preset" (click)="selected.emit()" [ngClass]="{selected: isSelected}">
+    <span *ngIf="!isEditing; else editInput">{{preset.name}}</span>
+    <ng-template #editInput>
+        <input autofocus [value]="preset.name" (change)="changePresetName($event)" (focusout)="submit.emit()"
+               (click)="$event.stopPropagation()"
+               (keydown.enter)="submit.emit()" (submit)="submit.emit()"/>
+    </ng-template>
+    <button *ngIf="!isEditing" mat-icon-button aria-label="Example icon button with a vertical three dot icon icon-btn"
+            (click)="edit.emit();$event.stopPropagation()">
+        <mat-icon>edit</mat-icon>
+    </button>
+    <button mat-icon-button aria-label="Example icon button with a vertical three dot icon icon-btn"
+            (click)="delete.emit();$event.stopPropagation()">
+        <mat-icon>delete</mat-icon>
+    </button>
+</div>

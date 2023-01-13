@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTooltipModule} from "@angular/material/tooltip";
 import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
+import { PresetComponent } from './weights-control/preset/preset.component';
 
 
 
@@ -23,7 +24,8 @@ import {MatButtonModule} from "@angular/material/button";
     TitlebarComponent,
     ProbaBarComponent,
     ProbaBarAllStudentsComponent,
-    WeightsControlComponent
+    WeightsControlComponent,
+    PresetComponent
   ],
     imports: [
         CommonModule,

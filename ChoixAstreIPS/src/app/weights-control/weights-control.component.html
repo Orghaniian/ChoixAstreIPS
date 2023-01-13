@@ -10,22 +10,10 @@
         <button class="btn" (click)="resetWeights()">Réinitialiser les poids</button>
     </div>
     <div class="presets">
-        <div #presets *ngFor="let preset of savedWeights; let index = index;"
-             class="preset" (click)="applyPreset(index)" [ngClass]="{selected: isPresetSelected(index)}">
-            <span *ngIf="editingPreset != index; else editInput">{{preset.name}}</span>
-            <ng-template #editInput>
-                <input autofocus [value]="preset.name" (change)="changePresetName($event)" (focusout)="edit(null)"
-                       (click)="$event.stopPropagation()"
-                       (keydown.enter)="edit(null)" (submit)="edit(null)"/>
-            </ng-template>
-            <button *ngIf="editingPreset != index" mat-icon-button aria-label="Example icon button with a vertical three dot icon icon-btn"
-                    (click)="edit(index);$event.stopPropagation()">
-                <mat-icon>edit</mat-icon>
-            </button>
-            <button mat-icon-button aria-label="Example icon button with a vertical three dot icon icon-btn"
-                    (click)="delete(index)">
-                <mat-icon>delete</mat-icon>
-            </button>
-        </div>
+        <weights-control-preset #presets *ngFor="let preset of savedWeights; let index = index;"
+            [preset]="preset" (delete)="delete(index)" (edit)="edit(index)" (submit)="edit(null)"
+            (selected)="applyPreset(index)" (nameChanged)="changePresetName($event)" [isEditing]="editingPreset == index"
+            [isSelected]="isPresetSelected(index)"
+        ></weights-control-preset>
     </div>
 </div>
