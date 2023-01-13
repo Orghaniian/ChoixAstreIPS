@@ -83,4 +83,14 @@ export class WeightsControlComponent {
     this.savedWeights[this.editingPreset!].name = newName.length > 0 ? newName : `Poids ${this.editingPreset}`;
     this.savePresetsToStorage();
   }
+
+  isPresetSelected(index: number) {
+    let result = true;
+    this.weights.forEach((weight, i) => {
+      if(weight.value !== this.savedWeights[index].weights[i].value) {
+        result = false;
+      }
+    })
+    return result;
+  }
 }
