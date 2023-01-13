@@ -5,5 +5,27 @@
             <ngx-slider [(value)]="weight.value" [options]="sliderOptions" id="{{weight.key}}"></ngx-slider>
         </div>
     </div>
-    <button class="btn" (click)="resetWeights()">Réinitialiser les poids</button>
+    <div class="btns">
+        <button class="btn" (click)="saveWeights()">Sauvegarder les poids</button>
+        <button class="btn" (click)="resetWeights()">Réinitialiser les poids</button>
+    </div>
+    <div class="presets">
+        <div #presets *ngFor="let preset of savedWeights; let index = index;"
+             class="preset" (click)="applyPreset(index)">
+            <span *ngIf="editingPreset != index; else editInput">{{preset.name}}</span>
+            <ng-template #editInput>
+                <input autofocus [value]="preset.name" (change)="changePresetName($event)" (focusout)="edit(null)"
+                       (click)="$event.stopPropagation()"
+                       (keydown.enter)="edit(null)" (submit)="edit(null)"/>
+            </ng-template>
+            <button *ngIf="editingPreset != index" mat-icon-button aria-label="Example icon button with a vertical three dot icon icon-btn"
+                    (click)="edit(index);$event.stopPropagation()">
+                <mat-icon>edit</mat-icon>
+            </button>
+            <button mat-icon-button aria-label="Example icon button with a vertical three dot icon icon-btn"
+                    (click)="delete(index)">
+                <mat-icon>delete</mat-icon>
+            </button>
+        </div>
+    </div>
 </div>

@@ -1,3 +1,5 @@
+import {clone} from "./ArrayUtils";
+
 class Indicator {
     id: string;
     assos: number;
@@ -68,9 +70,7 @@ const defaultWeights: Weight[] = [
 ]
 
 function getDefaultWeights(): Weight[] {
-    const result: Weight[] = [];
-    defaultWeights.forEach(val => result.push(Object.assign({}, val)));
-    return result;
+   return clone(defaultWeights);
 }
 
 

@@ -155,7 +155,7 @@ h3 {
 
 
 .btn {
-  margin: 1rem auto;
+  margin: 1rem 1rem;
   text-decoration: none;
   background: var(--grey2-color);
   color: var(--text-color);
@@ -224,4 +224,11 @@ body { font-family: 'Open Sans', sans-serif; }
   background-color: var(--grey-color) !important;
   padding: 0.5rem 1rem !important;
   border-radius: 0.8rem !important;
+}
+
+.mdc-icon-button {
+  &:hover {
+    background-color: var(--grey-color-hover) !important;
+    color: white;
+  }
 }

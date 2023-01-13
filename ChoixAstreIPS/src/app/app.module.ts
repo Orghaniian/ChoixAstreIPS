@@ -12,6 +12,8 @@ import { ProbaBarAllStudentsComponent } from './proba-bar-all-students/proba-bar
 import { WeightsControlComponent } from './weights-control/weights-control.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTooltipModule} from "@angular/material/tooltip";
+import {MatIconModule} from "@angular/material/icon";
+import {MatButtonModule} from "@angular/material/button";
 
 
 
@@ -23,16 +25,18 @@ import {MatTooltipModule} from "@angular/material/tooltip";
     ProbaBarAllStudentsComponent,
     WeightsControlComponent
   ],
-  imports: [
-    CommonModule,
-    BrowserModule,
-    FormsModule,
-    NgSelectModule,
-    NgxSliderModule,
-    NgScrollbarModule,
-    BrowserAnimationsModule,
-    MatTooltipModule
-  ],
+    imports: [
+        CommonModule,
+        BrowserModule,
+        FormsModule,
+        NgSelectModule,
+        NgxSliderModule,
+        NgScrollbarModule,
+        BrowserAnimationsModule,
+        MatTooltipModule,
+        MatIconModule,
+        MatButtonModule
+    ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
