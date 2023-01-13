@@ -43,8 +43,7 @@ export class WeightsControlComponent {
 
   @ViewChildren("presets") presets!: QueryList<ElementRef>;
 
-  public editingPreset: number | null = 1;
-  public temporaryName = "";
+  public editingPreset: number | null = null;
 
   public savePresetsToStorage() {
     localStorage.setItem(this.weightsPresetsKey, JSON.stringify(this.savedWeights));
@@ -73,12 +72,9 @@ export class WeightsControlComponent {
   edit(index: number | null) {
     this.editingPreset = index;
     if(index != null) {
-      this.temporaryName = this.savedWeights[index].name;
       setTimeout( () => {
         this.presets.get(index)!.nativeElement.querySelector("input").focus();
       }, 0)
-    } else {
-      this.temporaryName = "";
     }
   }
 
