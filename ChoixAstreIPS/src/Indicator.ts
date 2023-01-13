@@ -73,5 +73,18 @@ function getDefaultWeights(): Weight[] {
    return clone(defaultWeights);
 }
 
+function calculateAmountIPSandASTRE(indicators: Indicator[], weights: Weight[]): [number, number] {
+    let tempIpsAmount = 0;
+    let tempAstreAmount = 0;
+    indicators.forEach((studentIndication: Indicator) => {
+        if(studentIndication.computeProbability(weights) > 0) {
+            tempIpsAmount++;
+        } else if (studentIndication.computeProbability(weights) < 0) {
+            tempAstreAmount++;
+        }
+    });
+    return [tempIpsAmount, tempAstreAmount];
+}
 
-export { Indicator, getDefaultWeights, Weight }
+
+export { Indicator, getDefaultWeights, Weight, calculateAmountIPSandASTRE }

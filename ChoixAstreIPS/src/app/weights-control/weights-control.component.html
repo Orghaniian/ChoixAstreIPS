@@ -13,7 +13,7 @@
         <weights-control-preset #presets *ngFor="let preset of savedWeights; let index = index;"
             [preset]="preset" (delete)="delete(index)" (edit)="edit(index)" (submit)="edit(null)"
             (selected)="applyPreset(index)" (nameChanged)="changePresetName($event)" [isEditing]="editingPreset == index"
-            [isSelected]="isPresetSelected(index)"
+            [isSelected]="isPresetSelected(index)" [students]="students"
         ></weights-control-preset>
     </div>
 </div>

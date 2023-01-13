@@ -1,5 +1,5 @@
 import {Component, ElementRef, EventEmitter, Input, Output, QueryList, ViewChild, ViewChildren} from '@angular/core';
-import {getDefaultWeights, Weight} from "../../Indicator";
+import {getDefaultWeights, Indicator, Weight} from "../../Indicator";
 import {Options} from "@angular-slider/ngx-slider";
 import {clone} from "../../ArrayUtils";
 import WeightsPreset from "./WeightsPreset";
@@ -13,6 +13,7 @@ export class WeightsControlComponent {
   private readonly weightsPresetsKey = "weightsPresets";
 
   @Input() weights: Weight[] = [];
+  @Input() students!: Indicator[];
   sliderOptions: Options = {
     floor: 0,
     ceil: 1,

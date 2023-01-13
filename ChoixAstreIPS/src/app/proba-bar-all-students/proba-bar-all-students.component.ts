@@ -1,5 +1,5 @@
 import {Component, ElementRef, EventEmitter, Input, Output, ViewChild} from '@angular/core';
-import { Indicator, Weight } from 'src/Indicator';
+import {calculateAmountIPSandASTRE, Indicator, Weight} from 'src/Indicator';
 
 @Component({
   selector: 'app-proba-bar-all-students',
@@ -29,21 +29,7 @@ export class ProbaBarAllStudentsComponent {
   }
 
   ngAfterContentChecked(): void {
-    this.calculateAmountIPSandASTRE(this.indicatorsWeights);
-  }
-
-  public calculateAmountIPSandASTRE(weights: Weight[]): void {
-    let tempIpsAmount = 0;
-    let tempAstreAmount = 0;
-    this.studentsIndicators.forEach((studentIndication: Indicator) => {
-      if(studentIndication.computeProbability(weights) > 0) {
-        tempIpsAmount++;
-      } else if (studentIndication.computeProbability(weights) < 0) {
-        tempAstreAmount++;
-      }
-    });
-    this.ipsAmount = tempIpsAmount;
-    this.astreAmount = tempAstreAmount;
+    [this.ipsAmount, this.astreAmount] = calculateAmountIPSandASTRE(this.studentsIndicators, this.indicatorsWeights);
   }
 
   public updateDots() {
